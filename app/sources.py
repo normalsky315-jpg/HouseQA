@@ -153,7 +153,7 @@ def build_source_adapters(
                 name="leju",
                 fetcher=LejuFetcher(config.fetch, cache),
                 parser=ParserLeju(),
-                resolver=lambda p: p.extra.get("sleju") or None,
+                resolver=lambda p: p.extra.get("leju") or p.extra.get("sleju") or None,
             )
         )
 
