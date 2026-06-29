@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# HouseQA runtime artifacts
+cache/*.html
+logs/*.log
+reports/*.html
+reports/*.xlsx
+reports/*.json
+
+# Keep folder placeholders
+!cache/.gitkeep
+!logs/.gitkeep
+!reports/.gitkeep
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env

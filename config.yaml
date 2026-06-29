@@ -1,0 +1,79 @@
+# =============================================================================
+# HouseQA 設定檔
+#
+# 所有執行期參數集中於此，程式不寫死任何門檻。
+# 修改後重新執行 `python compare.py` 即生效。
+# =============================================================================
+
+# data.json 來源：預設從 NKUinfos 的 GitHub 倉庫即時抓取最新資料，
+# 抓取失敗時自動退回本地 data/data.json。
+data:
+  source: github          # github | local | <https 連結> | <本地路徑>
+  owner: normalsky315-jpg
+  repo: NKUinfos
+  branch: main
+  remote_path: data.json
+  local: data/data.json
+  timeout: 30
+
+# 啟用的比對來源（外掛）：可加 591、house958，未來可再加 leju、builder…
+# 移除某來源只要從清單刪掉即可，不需改任何程式。
+sources:
+  - "591"
+  - house958
+  - leju
+
+fetch:
+  headless: true          # Playwright 是否以無頭模式執行
+  timeout: 60             # 單頁載入逾時（秒）
+  wait_until: networkidle # Playwright 等待條件
+  retry: 3                # 下載失敗重試次數
+  retry_backoff: 2.0      # 重試間隔倍率（秒），第 n 次等待 backoff * n
+
+cache:
+  dir: cache              # HTML 快取資料夾
+  days: 7                 # 快取有效天數，逾期自動重抓
+
+report:
+  dir: reports            # 報表輸出資料夾
+  formats:                # 預設產生的報表格式（可被 --report 覆寫）
+    - html
+    - excel
+
+log:
+  dir: logs
+  file: houseqa.log
+  level: INFO             # DEBUG / INFO / WARNING / ERROR
+
+# -----------------------------------------------------------------------------
+# 比對規則
+#
+# 每個欄位可設定不同規則，規則型別由 app/compare/rules.py 的 RuleFactory 解析：
+#   exact         完全一致才 PASS
+#   contains      來源字串包含預期字串即 PASS
+#   contains_all  預期清單每一項都被來源包含才 PASS；部分包含 WARNING
+#   tolerance     數值比較，誤差在 tolerance 內 PASS，2 倍內 WARNING
+#
+# default 用於未列出的欄位。
+# -----------------------------------------------------------------------------
+compare:
+  default:
+    type: exact
+  rules:
+    name:           { type: contains }
+    dev:            { type: contains }
+    addr:           { type: contains }
+    floor:          { type: exact }
+    units:          { type: tolerance, tolerance: 0.0 }
+    buildings:      { type: exact }
+    parking:        { type: tolerance, tolerance: 0.05 }
+    layout:         { type: exact }
+    base_area:      { type: tolerance, tolerance: 0.05 }
+    public_ratio:   { type: tolerance, tolerance: 0.05 }
+    coverage_ratio: { type: tolerance, tolerance: 0.05 }
+    permit:         { type: exact }
+    handover:       { type: exact }
+    loan:           { type: tolerance, tolerance: 0.0 }
+    kit:            { type: contains_all }
+    bath:           { type: contains_all }
+    materials:      { type: contains_any }

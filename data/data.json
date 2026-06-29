@@ -1,0 +1,1254 @@
+{
+ "settings": {
+  "title": "高大特區房產分析儀表板",
+  "subtitle": "內政部實價登錄資料 113.01–115.03  龍登國際製作",
+  "version": "V18",
+  "dataDate": "115.03",
+  "base": 36.42,
+  "premiumPct": 10,
+  "discountPct": -5
+ },
+ "projects": [
+  {
+   "name": "高大之森2・高大之上",
+   "dev": "中德建設",
+   "status": "預售屋",
+   "addr": "大學南路（藍田西段12等地號）",
+   "permit": "114高市工建00763號",
+   "floor": "20F/B3",
+   "avgPrice": 43.13,
+   "minPrice": 40.81,
+   "maxPrice": 46.02,
+   "count": 35,
+   "units": 314,
+   "layout": "2棟20層；2房(20~27坪)／3房(33~34坪)；全平面309位",
+   "r1": 0,
+   "r2": 40,
+   "r3": 60,
+   "r4": 0,
+   "loan": "75%",
+   "handover": "2028下半年",
+   "kit": [
+    "櫻花廚具"
+   ],
+   "bath": [
+    "TOTO衛浴",
+    "Hansgrohe龍頭",
+    "Panasonic四合一暖風"
+   ],
+   "other": [
+    "人臉辨識電子鎖",
+    "Honeywell空清",
+    "日立永大電梯",
+    "BWT軟水",
+    "長庚活水",
+    "德國Classen木地板"
+   ],
+   "amenities": {
+    "休閒社交": [
+     "接待大廳",
+     "交誼廳",
+     "閱覽室",
+     "視聽室"
+    ],
+    "兒童親子": [
+     "兒童遊戲區"
+    ],
+    "景觀綠化": [
+     "中庭花園",
+     "空中花園"
+    ],
+    "生活機能": [
+     "信箱區",
+     "曬被區"
+    ]
+   },
+   "notes": "公設比35.8%／建蔽率33.66%／基地1253.51坪。中德建設、承優營造，大瀚建築師事務所。工程零付款方案。",
+   "analysis": "20樓校園首排地標，大學南路面對25萬坪高大校園，314戶純住家，建材達輕豪宅等級。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "premium",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.73095,
+   "lng": 120.280611,
+   "s591": "https://newhouse.591.com.tw/139790/detail",
+   "floorPlans": []
+  },
+  {
+   "name": "遠雄一靚",
+   "dev": "遠雄建設",
+   "status": "預售屋",
+   "addr": "大學二十三街vs大學二十六街",
+   "permit": "114高市工建00322號",
+   "floor": "20F/B3",
+   "avgPrice": 42.46,
+   "minPrice": 38.37,
+   "maxPrice": 50.33,
+   "count": 61,
+   "units": 461,
+   "layout": "A.B.D三棟20層；2房(22~26坪)／3房(33~36坪)；全平面480位",
+   "r1": 0,
+   "r2": 55,
+   "r3": 45,
+   "r4": 0,
+   "loan": "70%",
+   "handover": "2029Q3",
+   "kit": [
+    "建材待補（預售屋未完整公布）"
+   ],
+   "bath": [
+    "建材待補"
+   ],
+   "other": [
+    "遠雄555安心保固（結構25年/防水5年/地壁磚5年）",
+    "全平面480位",
+    "公設比36%"
+   ],
+   "amenities": {
+    "景觀綠化": [
+     "森林大門退縮景觀",
+     "空中綠意陽台",
+     "中庭綠境"
+    ],
+    "生活機能": [
+     "接待大廳",
+     "EV充電（480位）"
+    ]
+   },
+   "notes": "公設比36%／建蔽率28.99%／基地2432坪。林子森林伯諭聯合建築師。貸款僅70%（全區最嚴）。",
+   "analysis": "品牌信譽最強，換約流動性最佳。貸款僅70%，自備款需求高。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "premium",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.729602,
+   "lng": 120.280209,
+   "s591": "https://newhouse.591.com.tw/139855/detail",
+   "floorPlans": [
+    "https://drive.google.com/thumbnail?id=1qc4BBOXM486j0n58erRwl_qzFmpMvMUc&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1AxLZMulrplMfYM3usXJuipUfXAL7o-kF&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1pAbN31zT3v-_ZfMyz5fcRIrnwAl73Z5U&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1_PnTBDl6Pknx08UVlOEvXM4HRUtRU6cq&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1niUoKLX5doqeS1XGOOZxZumByOgZs12q&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1phFxg74jG4wnlGdtt6n6S8bXezEfiH5v&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1uabwY68jdctD-FfNAo5Gg56cX5MNC1l8&sz=w1200",
+    "https://drive.google.com/thumbnail?id=14KWvBfUGdKsQS1x4JJ6cDI5LGkT4SraS&sz=w1200"
+   ]
+  },
+  {
+   "name": "敘青田",
+   "dev": "興連城開發",
+   "status": "預售屋",
+   "addr": "大學十一街vs大學二十六街",
+   "permit": "113高市工建01378號",
+   "floor": "14F/B3",
+   "avgPrice": 41.03,
+   "minPrice": 38.47,
+   "maxPrice": 44.13,
+   "count": 11,
+   "units": 92,
+   "layout": "二房(20~25坪)、三房(37~41坪)",
+   "r1": 0,
+   "r2": 40,
+   "r3": 60,
+   "r4": 0,
+   "loan": "75%",
+   "handover": "2027Q4",
+   "kit": [
+    "義大利Miton廚具、波蘭Uniihopper緩降升降櫃、Bosch洗碗機"
+   ],
+   "bath": [
+    "西班牙Roca全智能馬桶、Roca四合一暖風機、五金：Villeroy & Boch、GROHE、NOBILI"
+   ],
+   "other": [
+    "柱中柱耐震系統",
+    "三協氣密窗、NBC天網S防霾紗窗、維夫拉克五合一電子鎖、虹牌塗抹式隔音地墊。",
+    "藍田公園第一排",
+    "精品小社區92戶",
+    "管費85元"
+   ],
+   "amenities": {},
+   "notes": "公設比36.9偏高／建蔽率42.99%／基地489.9坪。原東聯合建築師。\n2027Q4交屋 預售延長付款的優勢不明顯",
+   "analysis": "藍田公園首排，柱中柱耐震規格高。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "premium",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.729416,
+   "lng": 120.287113,
+   "s591": "https://newhouse.591.com.tw/139504/detail",
+   "floorPlans": [
+    "https://drive.google.com/thumbnail?id=1wtaPCdM9klLIY3gt2-jjA1hqMida4HQ0&sz=w1200",
+    "https://drive.google.com/thumbnail?id=17st0_l46Yep7P7isdTD0r8pLElZykIKy&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1aK2QvzWwtF8m8zo32uQEWoNkFvYVPbnq&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1ktG7lGENrvpb5taFNDxbDw7HbbExnrMP&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1Mpo5pLcZXsS3qV7Ue6oXSQKz_2SC0yQ2&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1QkmHNiG9yA8vq8KyxSWJvhUnwqxVKwEk&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1jNRgWqHxQxhTv6kiG65eY4lVd4FyB_sL&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1K5WLLI9RPB0HpGdrZ08CZor9R3VGHh-s&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1UfT90y4s3mXSi9gkLbI_12AG06-TnVp5&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1UOiTqMFDcrY1QW6baWFnqkbn3hkKdBeN&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1fDb4dMgbhRLlJAHXtuLdVx7mMH0PMsGd&sz=w1200"
+   ]
+  },
+  {
+   "name": "月理河",
+   "dev": "得邑建設",
+   "status": "新成屋",
+   "addr": "德中路1號（援中段二小段61地號）",
+   "permit": "110高市工建02428號",
+   "floor": "15F/B3",
+   "avgPrice": 42.29,
+   "minPrice": 36.89,
+   "maxPrice": 42.91,
+   "count": 45,
+   "units": 170,
+   "layout": "A.B棟15層；二房(20~25坪)、三房(37~41坪)；平面130+機械44位",
+   "r1": 0,
+   "r2": 33,
+   "r3": 67,
+   "r4": 0,
+   "loan": "80%",
+   "handover": "已完工",
+   "kit": [
+    "堡立名廚豪山三機",
+    "波蘭Amica洗碗機",
+    "Amica IH感應爐",
+    "日本KVK花灑"
+   ],
+   "bath": [
+    "和成智慧型超級馬桶（全戶）"
+   ],
+   "other": [
+    "德國太格隔音地板",
+    "BWT全棟淨水",
+    "5+5膠合超鋁氣密窗",
+    "後勁溪水岸第一排"
+   ],
+   "amenities": {
+    "休閒社交": [
+     "接待大廳",
+     "交誼廳",
+     "會議室"
+    ],
+    "景觀綠化": [
+     "空中花園"
+    ],
+    "生活機能": [
+     "信箱區",
+     "曬被區"
+    ]
+   },
+   "notes": "公設比25~34.36%（全區最低）／建蔽率39.09%／基地897.23坪／管費80元。許堅倚建築師。",
+   "analysis": "公設比最低、水岸景觀稀缺，建材規格紮實。一年均價已從40.36萬上漲至42.29萬。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "premium",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.721025,
+   "lng": 120.279742,
+   "s591": "https://newhouse.591.com.tw/137113/detail",
+   "floorPlans": [
+    "https://drive.google.com/thumbnail?id=1POdagGK_GAcpIZe8s2e-YvIuz7fQl2Xq&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1UR0pFBgXRKJnP6HspRviLgREa8Gq4W6t&sz=w1200",
+    "https://drive.google.com/thumbnail?id=19YbRBeD99WjMgEjH7aro8tVIclk1MeMv&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1qNTJo_XJfSDKDMj21S2yBFurkyrEVUM5&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1llwlFu2OknVr5ZsM1tgNUJ3olvOkhnRS&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1G56kheKbx103WEGI6dYlYbx16-wEgQyw&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1PSAlaxW4pbRiGFYDFBmNGwSvCSNnmof3&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1amJg1qd3exsNp3TUt1_AXmtoXOIOnNrY&sz=w1200"
+   ]
+  },
+  {
+   "name": "鳳凰萃",
+   "dev": "隆大建設",
+   "status": "新成屋",
+   "addr": "大學二十六街",
+   "permit": "-",
+   "floor": "15F/B2",
+   "avgPrice": 39.61,
+   "minPrice": 37.52,
+   "maxPrice": 42.36,
+   "count": 33,
+   "units": 201,
+   "layout": "二房(24~29坪)、三房(40~42坪)、2+1房(31~32坪)",
+   "r1": 0,
+   "r2": 73,
+   "r3": 21,
+   "r4": 6,
+   "loan": "80%",
+   "handover": "已完工",
+   "kit": [
+    "櫻花三機",
+    "Panasonic廚櫃"
+   ],
+   "bath": [
+    "HCG雙免治",
+    "Panasonic暖風"
+   ],
+   "other": [
+    "防水保固10年",
+    "冠軍SPC靜音地板、中華氣密窗、5+5mm膠合玻璃"
+   ],
+   "amenities": {
+    "運動健身": [
+     "健身房"
+    ],
+    "休閒娛樂": [
+     "KTV",
+     "Lounge Bar"
+    ],
+    "休閒社交": [
+     "接待大廳",
+     "交誼廳"
+    ],
+    "景觀綠化": [
+     "空中花園"
+    ],
+    "生活機能": [
+     "信箱區",
+     "曬被區",
+     "EV充電預留"
+    ]
+   },
+   "notes": "車位共規劃有平面式85個、機械式52個，結構採RC鋼筋混凝土",
+   "analysis": "2房73%投資導向。防水保固10年罕見，溢價+8.8%守穩。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "normal",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.729691,
+   "lng": 120.282784,
+   "s591": "",
+   "sleju": "https://www.leju.com.tw/community/Lb4d13139414302",
+   "floorPlans": [
+    "https://drive.google.com/thumbnail?id=1hSNQhX2zE80ID9KnOjXhcFIGKOTmQvkh&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1Oq7Sv7IzBL7_h-9-VX7CnCk-rLW4JnFR&sz=w1200",
+    "https://drive.google.com/thumbnail?id=11tctkurh1dLXFRc5N9GM8_6ZRBcOHERV&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1HEeqCQV1QO7PQS_rKFhDfa2UPT1WJf_2&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1rb1b3He40psd7B-Lzt0zgxAFkKrR1nr4&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1jLd9UHWDlWgfy8XjQ8_NpR_9udOz2-9o&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1hmrXNrvS5J9HqndpmcJEuQalaZf4aR_5&sz=w1200",
+    "https://drive.google.com/thumbnail?id=11HhgvU5Zsc7Yn9iYi4tOo0hCScvzlXzM&sz=w1200"
+   ]
+  },
+  {
+   "name": "以學MDT",
+   "dev": "華友聯開發",
+   "status": "預售屋",
+   "addr": "大學西路（近大學六十街）",
+   "permit": "110高市工建02835號",
+   "floor": "15F/B3",
+   "avgPrice": 39.03,
+   "minPrice": 36.75,
+   "maxPrice": 46.05,
+   "count": 18,
+   "units": 229,
+   "layout": "A.B棟單層4戶2梯／D棟單層8戶3梯；2房(25~26)／3房(33~38)／4房(45~49)；全平面257位",
+   "r1": 0,
+   "r2": 22,
+   "r3": 65,
+   "r4": 13,
+   "loan": "80%",
+   "handover": "2027Q4",
+   "kit": [
+    "德國noblessa廚具",
+    "SVAGO感應爐",
+    "BOSCH全嵌洗碗機"
+   ],
+   "bath": [
+    "Villeroy&Boch五金",
+    "Panasonic暖風"
+   ],
+   "other": [
+    "LOW-E膠合玻璃",
+    "3M除氯淨水",
+    "日本三井MITSUI公設",
+    "229戶零店面",
+    "管費75元（全區最低）"
+   ],
+   "amenities": {
+    "運動健身": [
+     "健身房"
+    ],
+    "休閒社交": [
+     "接待大廳",
+     "交誼廳",
+     "閱覽室"
+    ],
+    "兒童親子": [
+     "兒童遊戲區"
+    ],
+    "景觀綠化": [
+     "三重綠意景觀",
+     "空中花園"
+    ],
+    "生活機能": [
+     "信箱區",
+     "EV充電預留"
+    ]
+   },
+   "notes": "公設比36%／建蔽率28.8%／基地1513坪／管費75元。許堅倚建築師。",
+   "analysis": "高雄大學首排綠景，日本三井公設設計＋4房產品。管費75元全區最低，自住有利。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "normal",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.732979,
+   "lng": 120.275128,
+   "s591": "https://newhouse.591.com.tw/139856/detail",
+   "floorPlans": [
+    "https://drive.google.com/thumbnail?id=1XfpFCarsdPSxJNqMiHdaOa9IpP8q8U5w&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1Xa6pZuC7k05E94SP1_KxYQKf0Lp7g_r5&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1MEDQHy-WGGDP4FE-3pjdQCeQgTbYtCfb&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1npgMHm8eXxqoqcEp1mtFh9YXNwKSwALZ&sz=w1200",
+    "https://drive.google.com/thumbnail?id=12rTwP2AO7tt077GrR_H8L0Zg1iFb7IoY&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1q-XvPjIWVU7jhyh-JwLkIyLbfxIZhIY9&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1U-_1a1UKGY_FS8wgjPhtVmhv6H_jWFSg&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1S3xNpM4MgDBkgV4dg7rQxrnUpCF25cso&sz=w1200"
+   ]
+  },
+  {
+   "name": "冠傑Ai",
+   "dev": "冠傑建設",
+   "status": "預售屋",
+   "addr": "大學十街近大學東路",
+   "permit": "109高市工建00940號",
+   "floor": "15F/B3",
+   "avgPrice": 38.9,
+   "minPrice": 37.43,
+   "maxPrice": 42,
+   "count": 5,
+   "units": 231,
+   "layout": "2棟15層；2房(24~29坪)／3房(30~41坪)；平面189+機械28位",
+   "r1": 0,
+   "r2": 60,
+   "r3": 40,
+   "r4": 0,
+   "loan": "80%",
+   "handover": "待定",
+   "kit": [
+    "義大利BEST除氯洗烘碗機"
+   ],
+   "bath": [
+    "INAX主浴",
+    "TOTO次浴",
+    "V&B五金"
+   ],
+   "other": [
+    "紅磚隔間",
+    "ERIE淨軟水系統",
+    "公設比36.8%",
+    "基地1055坪"
+   ],
+   "amenities": {},
+   "notes": "公設比36.8%／基地1055坪。弘憲聯合建築師。原 HTML 戶數80戶嚴重低估，實為231戶。",
+   "analysis": "231戶中量社區，冠傑系列規格穩定。預售僅5筆，代表性偏低。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "normal",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.726062,
+   "lng": 120.290188,
+   "s591": "https://newhouse.591.com.tw/139219/detail",
+   "floorPlans": [
+    "https://drive.google.com/thumbnail?id=1ntHbNzMojXZayuqbox62dAI6mH46ftkw&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1VefZgWGtOpRxka_VD2pWlzMsgNYz_eos&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1bsZf8IlGw0yALJruxN-KZ5ONKInmXWRl&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1ePESF5G4XBQG08W9ZS8NT064uR-u4bjI&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1o-G_9s_0ZvJdOTYKQAUkWdu6HiZXZvu7&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1R1YZPuC1ALZQCZ62GarXatAMCkWbV401&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1TvwTD7KoBKzUbYPS5AO-zX6Wj4Fy-pnF&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1zhNaUnqoWnedQ9Yu_FWQppj8Skspfyzq&sz=w1200"
+   ]
+  },
+  {
+   "name": "翊城晶綻",
+   "dev": "翊城建設",
+   "status": "新成屋",
+   "addr": "大學十六街298號",
+   "permit": "-",
+   "floor": "13F/B3",
+   "avgPrice": 38.5,
+   "minPrice": 36.31,
+   "maxPrice": 46.05,
+   "count": 13,
+   "units": 60,
+   "layout": "A棟13層；2房(26.18~28.24坪)／3房(36.31~36.59坪)",
+   "r1": 0,
+   "r2": 60,
+   "r3": 40,
+   "r4": 0,
+   "loan": "80%",
+   "handover": "已完工",
+   "kit": [
+    "資訊待補"
+   ],
+   "bath": [
+    "資訊待補"
+   ],
+   "other": [
+    "基地323.28坪",
+    "1:2.5低梯戶比",
+    "戶戶邊間",
+    "純住宅60戶"
+   ],
+   "amenities": {},
+   "notes": "原 HTML 標15F、地址「高大商圈」皆錯誤。實為13F、大學十六街298號。",
+   "analysis": "60戶迷你純住宅，低梯戶比，戶戶邊間。高大東南側成熟區。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "normal",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.727332,
+   "lng": 120.283848,
+   "s591": "https://newhouse.591.com.tw/138413/detail",
+   "floorPlans": [
+    "https://drive.google.com/thumbnail?id=1agJFCANN9is4xFnAtOOOONBAnILdlefT&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1FuW29oD-QqaxqwyqCCtcKS0NLU6Zkm1_&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1R9SHMNMG_4JJtfmr1uG1SU9mpJZ1evPy&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1WN3nJlZ-3HvClsFbRn5Hm5SfM0ou2HwD&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1WwYTgQ4p2AJBKwEc1_PkTzt2kh28AnSV&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1kkAha98z1pQC2UBUCqrJPvWVQGKHYsHU&sz=w1200"
+   ]
+  },
+  {
+   "name": "遠見禾悅",
+   "dev": "全誠建設",
+   "status": "新成屋",
+   "addr": "大學南路168號",
+   "permit": "-",
+   "floor": "15F/B2",
+   "avgPrice": 38.88,
+   "minPrice": 36.98,
+   "maxPrice": 40.52,
+   "count": 66,
+   "units": 170,
+   "layout": "A.B.D三棟15層；全3房規劃(34~49坪)；單層4戶雙梯",
+   "r1": 0,
+   "r2": 0,
+   "r3": 100,
+   "r4": 0,
+   "loan": "80%",
+   "handover": "已完工",
+   "kit": [
+    "義大利Miton等級進口廚具"
+   ],
+   "bath": [
+    "INAX精品衛浴"
+   ],
+   "other": [
+    "公設比34%",
+    "全3房配置（區域唯一）",
+    "戶戶邊間雙梯"
+   ],
+   "amenities": {
+    "運動健身": [
+     "健身房"
+    ],
+    "休閒娛樂": [
+     "KTV",
+     "視聽室"
+    ],
+    "休閒社交": [
+     "接待大廳",
+     "交誼廳"
+    ],
+    "兒童親子": [
+     "親子遊戲區"
+    ],
+    "景觀綠化": [
+     "中庭花園",
+     "空中花園"
+    ],
+    "生活機能": [
+     "信箱區",
+     "曬被區"
+    ]
+   },
+   "notes": "",
+   "analysis": "純3房、低公設、戶戶邊間，自住首選。66筆成交流動性佳，+6.8%溢價穩健。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "normal",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.73219,
+   "lng": 120.294212,
+   "s591": "https://newhouse.591.com.tw/137479/detail",
+   "floorPlans": [
+    "https://drive.google.com/thumbnail?id=1LE9kXP68UkRq3UctWOQT5XEPMjVV3OVs&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1GWnqUY6UAhS7ZjDnM_InyY3wawTVI2Qt&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1G_jQ2racwsXLCvKi4zGnssWCWjiXeucW&sz=w1200",
+    "https://drive.google.com/thumbnail?id=17zPpQQyvDa6dB10Qm8VWHkCnYHhl6DM9&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1eE5-tJGAaqUVwbZlBv9rcpEz3GttRlf8&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1wHutdJHfVhTJs6e9ZR7qVlcK3ax9Ncy5&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1jPlOFiyvqSSsaRQyfgVAvFP0kHxVwQvr&sz=w1200",
+    "https://drive.google.com/thumbnail?id=12eezR-BrIG28CP7Oyy7ah3ejT9KRAOF8&sz=w1200"
+   ]
+  },
+  {
+   "name": "蒙瑪特",
+   "dev": "璞盛建築",
+   "status": "新成屋",
+   "addr": "大學二十二街52~60號",
+   "permit": "-",
+   "floor": "9F/B2",
+   "avgPrice": 39.2,
+   "minPrice": 38,
+   "maxPrice": 40,
+   "count": 13,
+   "units": 33,
+   "layout": "單棟9層；2房(23坪)／2+1房(29坪)／3房(37坪)",
+   "r1": 0,
+   "r2": 50,
+   "r3": 50,
+   "r4": 0,
+   "loan": "80%",
+   "handover": "已完工",
+   "kit": [
+    "德國品牌（待補）"
+   ],
+   "bath": [
+    "V&B、GROHE五金（待補）"
+   ],
+   "other": [
+    "33戶純住宅",
+    "戶戶邊間",
+    "衛浴皆開窗",
+    "步行3分至高大"
+   ],
+   "amenities": {},
+   "notes": "原 HTML「拓真」案實際為「蒙瑪特」，地址樓層戶數均價全部錯誤。璞盛/宇富建設。",
+   "analysis": "33戶迷你精品，戶戶邊間衛浴開窗。藍田里核心，步行3分高大校園。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "normal",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.725971,
+   "lng": 120.281188,
+   "s591": "https://newhouse.591.com.tw/139600/detail",
+   "floorPlans": [
+    "https://drive.google.com/thumbnail?id=1KCWw-4QUmy3w7sxXK6RbuCSHjdkHBlLP&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1elNY1GEVg4koOLDZyofZta1vQ6Wp5UAw&sz=w1200",
+    "https://drive.google.com/thumbnail?id=10bw7-YN8MZqs85Vssxn3nvMn3DI1qrmx&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1uT1XGHKDYZrtc55OPBESfBLzo-mxx6mI&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1JL8lbjkanXRhPWj2RxtpXnqBxFwEEgKN&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1rNvOmtMLTlkKHR4laFa7OiW_es3B5xAL&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1vBRMpeDp45eFIdcCIzT9J63YsAGyFNm1&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1lZljr8gHRHKVYeWKKiwUpI5OfyXLAJFp&sz=w1200"
+   ]
+  },
+  {
+   "name": "行見築",
+   "dev": "居富建設",
+   "status": "預售屋",
+   "addr": "大學三十二街vs大學七街",
+   "permit": "110高市工建02726號",
+   "floor": "15F/B3",
+   "avgPrice": 38.27,
+   "minPrice": 36.14,
+   "maxPrice": 40.83,
+   "count": 46,
+   "units": 129,
+   "layout": "A.B 兩個棟別 二房(26、33、40坪)、三房(47、48坪)、四房(53坪) 分階段(按樓層)銷售",
+   "r1": 0,
+   "r2": 40,
+   "r3": 38,
+   "r4": 22,
+   "loan": "80%",
+   "handover": "2030Q4",
+   "kit": [
+    "國際牌原裝廚具、BOSCH洗碗機(4房另附電器櫃)"
+   ],
+   "bath": [
+    "美標、Panasonic全自動馬桶、INAX淋浴龍頭"
+   ],
+   "other": [
+    "中華隔音氣密窗、虹牌隔音地坪、80x80cm石英磚",
+    "全平面138位",
+    "管費80元"
+   ],
+   "amenities": {
+    "運動健身": [
+     "健身房"
+    ],
+    "休閒社交": [
+     "接待大廳",
+     "交誼廳",
+     "閱覽室",
+     "棋藝室"
+    ],
+    "娛樂才藝": [
+     "鋼琴教室"
+    ],
+    "生活機能": [
+     "信箱區"
+    ]
+   },
+   "notes": "",
+   "analysis": "純自住規劃，含4房22%家庭客。低梯戶比、建材紮實，46筆成交流動性佳。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "normal",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.730988,
+   "lng": 120.289325,
+   "s591": "https://newhouse.591.com.tw/138788/detail",
+   "floorPlans": [
+    "https://drive.google.com/thumbnail?id=1jfqK0eHGAyqic8VhrYERhLtfMyIWKKAO&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1b_1wBwgF89ioej4X0GyruhZEiWRRtrso&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1BkGuvABuLk1n0-yz2RnF3FJIT5NXEh43&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1UCo34uJHaPMvcTledjRcCOGXp2hVNSCf&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1MDoUJs9jGK27MIIOeSohZPNvboTafTs3&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1OaGQbXsBkPXyiYUos1T_-Xt3qs0Qzm0_&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1OujV8B8tmvhrmABvKpPxL1mgu1cZZpZc&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1urX3Til7_n-UKjloeCTOxXEX0Kp25VQC&sz=w1200"
+   ]
+  },
+  {
+   "name": "高大之森",
+   "dev": "中德建設（茂德）",
+   "status": "預售屋",
+   "addr": "楠海路（近藍田路）vs大學三十一街",
+   "permit": "112高市工建01079號",
+   "floor": "15F/B4",
+   "avgPrice": 50.2,
+   "minPrice": 35.47,
+   "maxPrice": 53.4,
+   "count": 331,
+   "units": 362,
+   "layout": "A.B棟15層；2房(17~28坪)／3房(33~36坪)",
+   "r1": 0,
+   "r2": 56,
+   "r3": 44,
+   "r4": 0,
+   "loan": "80%",
+   "handover": "2026Q3",
+   "kit": [
+    "櫻花全套廚具",
+    "廚下熱飲機"
+   ],
+   "bath": [
+    "TOTO全系列雙免治（全戶）"
+   ],
+   "other": [
+    "德國BWT軟水",
+    "3M全棟淨水",
+    "長庚活水",
+    "日立永大電梯",
+    "GreenWeb防霾紗窗",
+    "一期已完銷"
+   ],
+   "amenities": {
+    "運動健身": [
+     "健身房",
+     "瑜伽教室"
+    ],
+    "休閒娛樂": [
+     "KTV",
+     "Lounge Bar",
+     "視聽室"
+    ],
+    "休閒社交": [
+     "接待大廳",
+     "交誼廳",
+     "閱覽室"
+    ],
+    "兒童親子": [
+     "兒童遊戲區",
+     "親子遊戲區"
+    ],
+    "景觀綠化": [
+     "中庭花園",
+     "空中花園"
+    ],
+    "生活機能": [
+     "信箱區",
+     "曬被區",
+     "廚藝教室"
+    ]
+   },
+   "notes": "此案為高大之森一期，二期為「高大之森2・高大之上」。基地1345.5坪／建蔽率39.74%。承優營造、大瀚建築師。",
+   "analysis": "全區成交量No.1（331筆）。預售最新成交53.4萬/坪改寫楠梓新高，完工後換手價可能修正。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "premium",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.722786,
+   "lng": 120.275654,
+   "s591": "https://newhouse.591.com.tw/134280/detail",
+   "floorPlans": [
+    "https://drive.google.com/thumbnail?id=1P6N6lCsW0ISvxqWqktQKTTxUbqst3xUv&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1XSYdxd20aq_K14dPkCHV2FGz4xlcAi8m&sz=w1200",
+    "https://drive.google.com/thumbnail?id=13cw96hmqrwoe4Jp42XWFG-WZOwuUMyM5&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1LUKTk-A44dQe3TLc7GbUcLXRhnB8jpdr&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1Nlt4UIJTls7efzPb9cJ0loGs08-Gb-Mj&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1tTKgfwZNefjTtW9CcNBKfS3cTJIfMrNu&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1_fCt2QM5RSoye3OWE1SopwoO4yMKwykI&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1gQxEJ46GHGq9ajg-5U_26gymbhcoUwig&sz=w1200"
+   ]
+  },
+  {
+   "name": "吉隆森淼",
+   "dev": "吉隆建設",
+   "status": "預售屋",
+   "addr": "德民路758號",
+   "permit": "110高市工建02971-01號",
+   "floor": "15F/B4",
+   "avgPrice": 37.4,
+   "minPrice": 36.28,
+   "maxPrice": 38.69,
+   "count": 16,
+   "units": 157,
+   "layout": "單棟15層；2房(26~32坪)／2+1房(29~30坪)／3房(32~45坪)；平面169位",
+   "r1": 0,
+   "r2": 25,
+   "r3": 65,
+   "r4": 10,
+   "loan": "80%",
+   "handover": "2026Q4",
+   "kit": [
+    "櫻花三機"
+   ],
+   "bath": [
+    "TOTO免治"
+   ],
+   "other": [
+    "贈大金全屋冷氣（全戶）",
+    "Weber隔音地墊",
+    "右昌森林公園步行2分",
+    "EMS充電系統"
+   ],
+   "amenities": {},
+   "notes": "⚠ 屬楠梓加工區生活圈，非高大特區核心。公設比36.7%／基地721.72坪／管費80元。",
+   "analysis": "贈大金全屋冷氣最大賣點，2+1房格局彈性高。位置偏西楠梓，溢價空間有限。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "normal",
+   "warn": true,
+   "warnReason": "",
+   "lat": 22.722123,
+   "lng": 120.293271,
+   "s591": "https://newhouse.591.com.tw/139815/detail",
+   "floorPlans": []
+  },
+  {
+   "name": "琢萃",
+   "dev": "協勝發建設",
+   "status": "新成屋",
+   "addr": "高雄大學路506號",
+   "permit": "-",
+   "floor": "15F/B3",
+   "avgPrice": 34.95,
+   "minPrice": 32,
+   "maxPrice": 38,
+   "count": 14,
+   "units": 190,
+   "layout": "A.B兩棟15層；2房(24~25坪)／3房(39坪)／4房(49~50坪)／2+1房(33~40坪)",
+   "r1": 0,
+   "r2": 30,
+   "r3": 35,
+   "r4": 25,
+   "loan": "80%",
+   "handover": "已完工",
+   "kit": [
+    "櫻花廚具"
+   ],
+   "bath": [
+    "TOTO衛浴、TOTO五金"
+   ],
+   "other": [
+    "基地1123.83坪",
+    "203個車位",
+    "協勝發30年品牌",
+    "藍田雙語國小旁"
+   ],
+   "amenities": {},
+   "notes": "2026/4全新完工，14筆成交均價35萬。開價38萬、優惠35萬。",
+   "analysis": "協勝發累計4000戶口碑，對面永信原旭已成交40萬，35萬有議價空間\n由於隔壁正在打地基 目前靠鄰近基地的2~4樓促銷 均價約在30萬上下",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "discount",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.73097,
+   "lng": 120.285063,
+   "s591": "https://newhouse.591.com.tw/140264/detail",
+   "floorPlans": []
+  },
+  {
+   "name": "冠傑UI",
+   "dev": "冠傑建設",
+   "status": "新成屋",
+   "addr": "大學三十八街51號",
+   "permit": "110高市工建00003號",
+   "floor": "15F/B2",
+   "avgPrice": 32.53,
+   "minPrice": 19.57,
+   "maxPrice": 38.68,
+   "count": 184,
+   "units": 190,
+   "layout": "A.B棟15層；2房(21~28坪)／3房(29~40坪)；平面195位",
+   "r1": 0,
+   "r2": 62,
+   "r3": 38,
+   "r4": 0,
+   "loan": "80%",
+   "handover": "已完工",
+   "kit": [
+    "義大利BEST洗烘碗機",
+    "升降吊廚"
+   ],
+   "bath": [
+    "V&B五金",
+    "INAX主浴",
+    "TOTO次浴"
+   ],
+   "other": [
+    "ERIE全戶淨軟水",
+    "紅磚隔間（隔音最佳）",
+    "SAKURA氣密窗",
+    "基地1076坪",
+    "管費70元"
+   ],
+   "amenities": {},
+   "notes": "公設比36.8%／基地1076坪／管費70元。弘憲聯合建築師。",
+   "analysis": "建材規格CP值最高，INAX+V&B豪宅建材卻是折價案。逢低布局時機。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "discount",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.732801,
+   "lng": 120.293561,
+   "s591": "",
+   "floorPlans": []
+  },
+  {
+   "name": "崑庭馥御",
+   "dev": "崑庭建設",
+   "status": "新成屋",
+   "addr": "大學五十六街53號",
+   "permit": "-",
+   "floor": "多期多棟",
+   "avgPrice": 31.62,
+   "minPrice": 28.42,
+   "maxPrice": 36.84,
+   "count": 369,
+   "units": 450,
+   "layout": "多期多棟；2房(25~28)／3房(29~40)／4房(45+)",
+   "r1": 0,
+   "r2": 40,
+   "r3": 45,
+   "r4": 15,
+   "loan": "80%",
+   "handover": "各期不同",
+   "kit": [
+    "各期不一（E期以上林內三機）"
+   ],
+   "bath": [
+    "各期不同，H期HCG免治"
+   ],
+   "other": [
+    "多期累積大量戶數",
+    "各期規格差異大",
+    "議價空間大"
+   ],
+   "amenities": {},
+   "notes": "多期規格差異大，E/F/G/H期建材不同，需確認期別。",
+   "analysis": "369筆成交流動性全區第二，庫存壓力使議價空間最大。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "discount",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.729506,
+   "lng": 120.276683,
+   "s591": "https://newhouse.591.com.tw/130646/detail",
+   "floorPlans": [
+    "https://drive.google.com/thumbnail?id=16dfvCWSh2aZ6g3y8Yrpb7gh_Hj9F6Oaj&sz=w1200",
+    "https://drive.google.com/thumbnail?id=19uD9W_vXxvARWOAOzeJhNPKIUgqzgx-g&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1cx6SSkYTxvQAET8W-2xsswdVXHcmBsCL&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1jNkrGtpd-PM06II8OiSLpTKtjdp1ivx6&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1D1LNz1oD-cEQnRp8HO6J4VSiZwb1jPBL&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1Dpty1oc4doBc3TGR0s1vdJseq1FrYXXH&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1TBWSsoqtvUvDemMfoow3uLUAureftNz0&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1kA0ynJFZ12PPn6Bz6nZ_1SebwFUZL0mH&sz=w1200"
+   ]
+  },
+  {
+   "name": "博市陞",
+   "dev": "龍陞開發",
+   "status": "新成屋",
+   "addr": "大學二十九路568號",
+   "permit": "109高市工建00996號",
+   "floor": "15F/B2",
+   "avgPrice": 40.57,
+   "minPrice": 36.7,
+   "maxPrice": 42,
+   "count": 36,
+   "units": 94,
+   "layout": "單棟15層；2房(20.46~20.64坪)／3房(31.61~34.87坪)；平面33+機械37位",
+   "r1": 0,
+   "r2": 65,
+   "r3": 35,
+   "r4": 0,
+   "loan": "80%",
+   "handover": "已完工",
+   "kit": [
+    "資訊待補"
+   ],
+   "bath": [
+    "資訊待補"
+   ],
+   "other": [
+    "Alfa Safe柱中柱耐震",
+    "台泥混凝土",
+    "三菱電梯",
+    "EMS電動車系統",
+    "防水保固5年"
+   ],
+   "amenities": {},
+   "notes": "公設比35%／建蔽率29.55%／基地458.71坪。原東聯合建築師。日祥營造。",
+   "analysis": "94戶精品小社區，耐震規格高。均價40.57萬達溢價+11.4%，36筆建議再觀察。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "premium",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.729644,
+   "lng": 120.275567,
+   "s591": "https://newhouse.591.com.tw/136422/detail",
+   "floorPlans": [
+    "https://drive.google.com/thumbnail?id=1aj6-4ymP1mM0GgecGwn5I5ma-zVXOTKb&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1cZGcjktjObjsWMJnw8wZJUW5nSZL4XbG&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1tGQ11BFZ_PqKVdkh7DRjHADqEEbFuwTl&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1REmGBTSsCua0Nf1Ta4eKJgBZlFck77ZV&sz=w1200",
+    "https://drive.google.com/thumbnail?id=123Cnua5Xj5dUVRJ55HlQwNB1iYrvY821&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1EvUePrkcrOA3--nWcoKmRwC1giRz2Kl2&sz=w1200",
+    "https://drive.google.com/thumbnail?id=18uOozheYf4GVsAEgmyP9kZytqcsEKahW&sz=w1200",
+    "https://drive.google.com/thumbnail?id=1WHaZNTfQNX8IwuDU6k_wk9iJYGclxx4-&sz=w1200"
+   ]
+  },
+  {
+   "name": "百達悠悅",
+   "dev": "友友地產",
+   "status": "新成屋",
+   "addr": "大學二十二街19號",
+   "permit": "109高市工建築字第01988-01號",
+   "floor": "15F/B3",
+   "avgPrice": 39.04,
+   "minPrice": 37.13,
+   "maxPrice": 40.71,
+   "count": 4,
+   "units": 114,
+   "layout": "2房(27.42坪)／3房(32.53~41.75坪)／3+1房(42.16~43.37坪)；全平面104位",
+   "r1": 0,
+   "r2": 30,
+   "r3": 60,
+   "r4": 10,
+   "loan": "80%",
+   "handover": "隨時交屋",
+   "kit": [
+    "Panasonic廚具",
+    "BOSCH洗碗機"
+   ],
+   "bath": [
+    "美標衛浴",
+    "INAX",
+    "ROCA"
+   ],
+   "other": [
+    "鑄鋁門",
+    "EMS系統",
+    "全棟淨軟水",
+    "近藍田公園",
+    "家樂福2分鐘"
+   ],
+   "amenities": {
+    "休閒社交": [
+     "接待大廳",
+     "交誼廳",
+     "會議室",
+     "廚藝教室"
+    ],
+    "運動健身": [
+     "健身房"
+    ],
+    "兒童親子": [
+     "兒童遊戲區"
+    ],
+    "景觀綠化": [
+     "空中花園"
+    ]
+   },
+   "notes": "基地629.46坪／建蔽率37.31%／公設比36%。使用執照為(113)高市工建築使字第00513號。",
+   "analysis": "大學南路核心圈首排景觀宅，生活機能完備，扣除早期預售轉登紀錄後，近一年真實成屋行情穩定站上39萬大關。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "premium",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.72512,
+   "lng": 120.28291,
+   "s591": "https://newhouse.591.com.tw/135968/detail",
+   "floorPlans": []
+  },
+  {
+   "name": "芳崗河左岸",
+   "dev": "芳崗建設",
+   "status": "新成屋",
+   "addr": "援中路二巷8號",
+   "permit": "108高市工建築字第00502-02號",
+   "floor": "15F/B3",
+   "avgPrice": 35.08,
+   "minPrice": 33.25,
+   "maxPrice": 37.34,
+   "count": 8,
+   "units": 112,
+   "layout": "2房(29.19~31.02坪)／3房(36.89~41.66坪)／3+1房(49.78~52.13坪)；平面110位",
+   "r1": 0,
+   "r2": 40,
+   "r3": 50,
+   "r4": 10,
+   "loan": "80%",
+   "handover": "隨時交屋",
+   "kit": [
+    "林內雙口爐",
+    "喜特麗烘碗機",
+    "喜特麗電子鍋收納櫃",
+    "GlemGas微波烤箱"
+   ],
+   "bath": [
+    "美標衛浴",
+    "康乃馨四合一暖風機"
+   ],
+   "other": [
+    "中華鋁門窗",
+    "亞爾浦軟水",
+    "耶魯電子鎖",
+    "後勁溪親水公園首排"
+   ],
+   "amenities": {
+    "休閒社交": [
+     "接待大廳",
+     "交誼廳",
+     "閱覽室",
+     "廚藝教室"
+    ],
+    "運動健身": [
+     "健身房",
+     "瑜伽教室"
+    ],
+    "生活機能": [
+     "信箱區",
+     "曬被區"
+    ]
+   },
+   "notes": "基地772.74坪／建蔽率32.39%／公設比36%／管理費70元。使照為(113)高市工建築使字第00945號。",
+   "analysis": "主打後勁溪親水公園第一排永久棟距與水岸景觀，近一年去重後成屋單價約落在35萬上下，性價比極高。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "normal",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.72295,
+   "lng": 120.28854,
+   "s591": "https://market.591.com.tw/5950631",
+   "floorPlans": []
+  },
+  {
+   "name": "辰旭",
+   "dev": "永信建設",
+   "status": "新成屋",
+   "addr": "大學一街132號",
+   "permit": "110高市工建築字第01878-04號",
+   "floor": "25F/B3",
+   "avgPrice": 33.99,
+   "minPrice": 32.44,
+   "maxPrice": 37.15,
+   "count": 15,
+   "units": 96,
+   "layout": "3房(46坪)／4房(53坪)；全平面103位",
+   "r1": 0,
+   "r2": 0,
+   "r3": 70,
+   "r4": 30,
+   "loan": "80%",
+   "handover": "隨時交屋",
+   "kit": [
+    "Panasonic IH爐",
+    "德匠櫃體",
+    "林內抽油煙機/烘碗機"
+   ],
+   "bath": [
+    "TOTO衛浴"
+   ],
+   "other": [
+    "先建後售指標案",
+    "25層超高層地標",
+    "純住家零店面",
+    "低建蔽率24.65%"
+   ],
+   "amenities": {
+    "休閒社交": [
+     "接待大廳",
+     "交誼廳",
+     "視聽室"
+    ],
+    "景觀綠化": [
+     "中庭花園"
+    ],
+    "運動健身": [
+     "健身房"
+    ],
+    "生活機能": [
+     "信箱區"
+    ]
+   },
+   "notes": "基地681.6坪／建蔽率24.65%／公設比36.4%／管理費90元。使照為(114)高市工建築使字第01049號。",
+   "analysis": "永信建設具口碑的「先建後售」代表作，純住家無店面且低建蔽率。過濾特殊關係極端值交易後，成屋均價精準落在34萬。",
+   "vs": "",
+   "vsPublic": false,
+   "tagMode": "auto",
+   "tagManual": "discount",
+   "warn": false,
+   "warnReason": "",
+   "lat": 22.72382,
+   "lng": 120.28562,
+   "s591": "https://newhouse.591.com.tw/139857/detail",
+   "floorPlans": []
+  }
+ ]
+}
