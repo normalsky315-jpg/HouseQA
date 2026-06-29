@@ -93,9 +93,7 @@ class BrandNormalizer:
         norm_hay = clean_text(haystack)
         # 品牌語意命中
         if norm_needle and norm_needle in BRAND_DICTIONARY:
-            for alias in [norm_needle.lower()] + [
-                a for a in BRAND_DICTIONARY[norm_needle]
-            ]:
+            for alias in [norm_needle.lower(), *BRAND_DICTIONARY[norm_needle]]:
                 if re.search(re.escape(alias), norm_hay, re.IGNORECASE):
                     return True
         # 一般子字串命中（去後綴）

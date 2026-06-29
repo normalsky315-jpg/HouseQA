@@ -80,7 +80,8 @@ class Site591Fetcher(Fetcher):
                 page = browser.new_page()
                 page.goto(
                     url,
-                    wait_until=self._config.wait_until,
+                    # wait_until 由 config 提供字串，值域與 Playwright 的 Literal 相符
+                    wait_until=self._config.wait_until,  # type: ignore[arg-type]
                     timeout=self._config.timeout * 1000,
                 )
                 return page.content()

@@ -11,8 +11,8 @@
 from __future__ import annotations
 
 import re
+from collections.abc import Callable
 from dataclasses import dataclass
-from typing import Callable
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
@@ -23,6 +23,7 @@ from app.fetchers.cache import HtmlCache
 from app.fetchers.house958 import House958Fetcher
 from app.fetchers.leju import LejuFetcher
 from app.fetchers.site591 import Site591Fetcher
+from app.models.project import Project
 from app.parsers.base import Parser
 from app.parsers.parser591 import Parser591
 from app.parsers.parser_house958 import ParserHouse958
@@ -48,9 +49,9 @@ class SourceAdapter:
     name: str
     fetcher: Fetcher
     parser: Parser
-    resolver: Callable[[object], str | None]
+    resolver: Callable[[Project], str | None]
 
-    def resolve_url(self, project: object) -> str | None:
+    def resolve_url(self, project: Project) -> str | None:
         """為指定建案找出此來源的網址（找不到回傳 ``None``）。"""
         try:
             return self.resolver(project)
@@ -80,7 +81,9 @@ class House958Index:
                 continue
             soup = BeautifulSoup(html, "lxml")
             for anchor in soup.find_all("a"):
-                href = anchor.get("href", "")
+                href = anchor.get("href")
+                if not isinstance(href, str):
+                    continue
                 core = re.search(r"【(.+?)】", anchor.get_text())
                 if core and href.endswith(".html"):
                     mapping.setdefault(_norm_name(core.group(1)), urljoin(self._base, href))

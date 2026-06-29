@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import time
 from types import TracebackType
-from typing import Optional
 
 
 class Timer:
@@ -20,15 +19,15 @@ class Timer:
         self._start: float = 0.0
         self._end: float = 0.0
 
-    def __enter__(self) -> "Timer":
+    def __enter__(self) -> Timer:
         self._start = time.perf_counter()
         return self
 
     def __exit__(
         self,
-        exc_type: Optional[type[BaseException]],
-        exc_val: Optional[BaseException],
-        exc_tb: Optional[TracebackType],
+        exc_type: type[BaseException] | None,
+        exc_val: BaseException | None,
+        exc_tb: TracebackType | None,
     ) -> None:
         self._end = time.perf_counter()
 

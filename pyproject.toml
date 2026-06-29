@@ -1,0 +1,51 @@
+[project]
+name = "houseqa"
+version = "1.0.0"
+description = "多來源建案資料自動化 QA 系統（NKUinfos × 591 × house958 × 樂居）"
+readme = "README.md"
+requires-python = ">=3.13"
+license = { text = "MIT" }
+dependencies = [
+    "playwright>=1.49",
+    "beautifulsoup4>=4.15",
+    "lxml>=6.1",
+    "openpyxl>=3.1",
+    "requests>=2.33",
+    "pydantic>=2.13",
+    "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+ai = ["anthropic>=0.109"]
+dev = ["pytest>=8.3", "ruff>=0.15", "mypy>=2.1", "pre-commit>=4.0"]
+
+[project.scripts]
+houseqa = "app.cli:main"
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+# E/W: pycodestyle, F: pyflakes, I: isort, UP: pyupgrade, B: bugbear, C4: comprehensions
+select = ["E", "W", "F", "I", "UP", "B", "C4"]
+ignore = [
+    "E501",  # 行長由 formatter 處理，中文字寬度計算不準故放寬
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["E402"]
+
+[tool.mypy]
+python_version = "3.13"
+ignore_missing_imports = true   # 第三方套件（bs4/playwright/openpyxl…）缺型別存根
+warn_unused_ignores = true
+warn_redundant_casts = true
+no_implicit_optional = true
+check_untyped_defs = true
+exclude = ["tests/"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]

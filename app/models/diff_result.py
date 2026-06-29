@@ -14,7 +14,7 @@ from typing import Any
 from pydantic import BaseModel, Field
 
 
-class Status(str, enum.Enum):
+class Status(enum.StrEnum):
     """比對狀態。"""
 
     PASS = "PASS"

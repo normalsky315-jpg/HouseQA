@@ -11,8 +11,9 @@
 from __future__ import annotations
 
 import re
+from collections.abc import Callable
 from dataclasses import dataclass
-from typing import Any, Callable, Optional
+from typing import Any
 
 from app.models.project import Project
 from app.models.source_record import SourceRecord
@@ -41,19 +42,19 @@ _DEV_SUFFIXES = (
 # --------------------------------------------------------------------------- #
 # 共用文字解析輔助
 # --------------------------------------------------------------------------- #
-def _find_pct(text: str, label: str) -> Optional[float]:
+def _find_pct(text: str, label: str) -> float | None:
     """從文字擷取「<label>數值%」的百分比數值（取範圍中的第一個）。"""
     match = re.search(rf"{label}\s*約?\s*([\d.]+)", clean_text(text))
     return float(match.group(1)) if match else None
 
 
-def _find_base_area(text: str) -> Optional[float]:
+def _find_base_area(text: str) -> float | None:
     """從 notes 擷取「基地<數值>坪」的基地面積。"""
     match = re.search(r"基地\s*([\d.]+)\s*坪", clean_text(text))
     return float(match.group(1)) if match else None
 
 
-def _find_buildings(text: str) -> Optional[int]:
+def _find_buildings(text: str) -> int | None:
     """擷取棟數（``2棟`` / ``2棟20層`` → 2）。"""
     match = re.search(r"(\d+)\s*棟", clean_text(text))
     return int(match.group(1)) if match else None
@@ -62,7 +63,7 @@ def _find_buildings(text: str) -> Optional[int]:
 _PARKING_RE = re.compile(r"(?:全)?(?:平面|機械|車位|坡道)[^；;。、]*")
 
 
-def _find_parking(text: str) -> Optional[int]:
+def _find_parking(text: str) -> int | None:
     """加總車位描述中的數量（``平面130+機械44位`` → 174）。"""
     cleaned = clean_text(text)
     total = 0
@@ -74,7 +75,7 @@ def _find_parking(text: str) -> Optional[int]:
     return total if found else None
 
 
-def _expand_room_range(match: "re.Match[str]") -> str:
+def _expand_room_range(match: re.Match[str]) -> str:
     """把 ``2~3房`` 展開成 ``2房3房``。"""
     low, high = int(match.group(1)), int(match.group(2))
     if 0 < low <= high <= 9 and high - low < 8:
@@ -182,7 +183,7 @@ class FieldSpec:
     label: str
     house: Callable[[Project], Any]
     source: Callable[[SourceRecord], Any]
-    normalizer: Optional[Callable[[Any], Any]] = None
+    normalizer: Callable[[Any], Any] | None = None
 
 
 # --------------------------------------------------------------------------- #

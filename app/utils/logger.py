@@ -55,10 +55,12 @@ def setup_logging(
     logger.addHandler(file_handler)
 
     stream = sys.stdout
-    try:  # 確保 Windows 主控台能輸出中文與 emoji
-        stream.reconfigure(encoding="utf-8")  # type: ignore[attr-defined]
-    except (AttributeError, ValueError):  # pragma: no cover - 視平台而定
-        pass
+    reconfigure = getattr(stream, "reconfigure", None)
+    if callable(reconfigure):  # 確保 Windows 主控台能輸出中文與 emoji
+        try:
+            reconfigure(encoding="utf-8")
+        except (OSError, ValueError):  # pragma: no cover - 視平台而定
+            pass
     stream_handler = logging.StreamHandler(stream)
     stream_handler.setLevel(log_level)
     stream_handler.setFormatter(formatter)

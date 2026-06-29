@@ -98,7 +98,7 @@ class Config:
     compare: CompareConfig = field(default_factory=CompareConfig)
 
     @classmethod
-    def load(cls, path: str | Path = DEFAULT_CONFIG_PATH) -> "Config":
+    def load(cls, path: str | Path = DEFAULT_CONFIG_PATH) -> Config:
         """從 YAML 檔載入設定；檔案不存在時回傳全預設設定。
 
         Args:
@@ -110,7 +110,7 @@ class Config:
         path = Path(path)
         raw: dict[str, Any] = {}
         if path.exists():
-            with open(path, "r", encoding="utf-8") as handle:
+            with open(path, encoding="utf-8") as handle:
                 raw = yaml.safe_load(handle) or {}
 
         fetch = FetchConfig(**raw.get("fetch", {}))

@@ -2,11 +2,11 @@
 
 from __future__ import annotations
 
+from app.compare.fields import normalize_handover, normalize_layout, normalize_permit
 from app.normalize.address import AddressNormalizer
 from app.normalize.area import AreaNormalizer
 from app.normalize.brand import BrandNormalizer
 from app.normalize.floor import FloorNormalizer
-from app.compare.fields import normalize_handover, normalize_layout, normalize_permit
 
 
 def test_brand_synonyms_unify() -> None:

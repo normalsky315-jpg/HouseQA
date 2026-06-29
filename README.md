@@ -115,11 +115,23 @@ HouseQA/
 
 591（已完成）、house958（已完成）、樂居（已完成）、建商官網、Google Maps、政府公開資料、建照／使照、實價登錄、NKUinfos Admin API、AI 自動分析。
 
-## 開發
+## 開發與品質
 
 ```bash
-python -m pytest          # 執行測試
+pip install -e ".[dev,ai]"   # 安裝開發相依（ruff / mypy / pytest / pre-commit）
+pre-commit install            # 啟用提交前自動檢查（可選）
+
+ruff check app tests          # 程式風格檢查
+mypy app                      # 型別檢查
+pytest                        # 單元測試
 ```
+
+或一次跑完：`make check`（lint + typecheck + test）。
+
+- **CI**：`.github/workflows/ci.yml`——push / PR 到 `main`、`dev` 時自動跑 ruff + mypy + pytest。
+- **型別**：全專案通過 `mypy`（嚴格度適中）。
+- **容器化**：`Dockerfile` 以官方 Playwright 映像為基底，`docker build -t houseqa . && docker run --rm houseqa --all`。
+- **環境變數**：見 `.env.example`（未來 AI 分析用的 API key 等）。
 
 ## License
 
