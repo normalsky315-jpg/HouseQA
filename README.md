@@ -71,6 +71,18 @@ python compare.py --help           # 查看完整參數
 
 新增來源（例如建商官網）只要在 `app/sources.py` 加一個 `SourceAdapter`，並在 `config.yaml` 的 `sources:` 加上名稱即可——比對引擎與報表都不需更動。
 
+## AI 差異分析（選用）
+
+當欄位 FAIL 時，可請 Claude 自動判斷差異原因（來源過期？NKUinfos 需更新？格式差異？同義詞？多期案？），並給建議。
+
+```bash
+# 設定金鑰（或寫進 .env，見 .env.example）
+set ANTHROPIC_API_KEY=sk-ant-...        # Windows
+python compare.py --ai                  # 對 FAIL 建案執行 AI 分析
+```
+
+分析結果會出現在 HTML 報表每個建案區塊下方。可在 `config.yaml` 的 `ai:` 區段調整：`model`（預設 `claude-opus-4-8`，可改 `claude-haiku-4-5` 省成本）、`analyze`（fail / warning / all）。未設金鑰時 `--ai` 會自動略過、不中斷流程。
+
 ## 比對的欄位
 
 名稱、建商、基地位置、樓層、棟數、戶數、車位、格局、基地面積、公設比、建蔽率、建照、交屋時間、貸款成數、廚具、衛浴、建材。
@@ -86,6 +98,7 @@ HouseQA/
 │   ├── cli.py                # 命令列介面
 │   ├── pipeline.py           # 主流程編排（串接各來源與報表）
 │   ├── sources.py            # 來源轉接器：591 / house958（含名稱自動比對）
+│   ├── ai/                   # AI 差異分析外掛（Anthropic Claude）
 │   ├── config.py             # 設定載入
 │   ├── models/               # Project / SourceRecord / DiffResult 資料模型
 │   ├── io/                   # data.json 載入（本地／GitHub）與映射
@@ -113,7 +126,7 @@ HouseQA/
 
 ## 規劃中的資料來源
 
-591（已完成）、house958（已完成）、樂居（已完成）、建商官網、Google Maps、政府公開資料、建照／使照、實價登錄、NKUinfos Admin API、AI 自動分析。
+591（已完成）、house958（已完成）、樂居（已完成）、AI 自動分析（已完成）、建商官網、Google Maps、政府公開資料、建照／使照、實價登錄、NKUinfos Admin API。
 
 ## 開發與品質
 

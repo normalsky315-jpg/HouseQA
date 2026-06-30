@@ -23,6 +23,15 @@ sources:
   - house958
   - leju
 
+# AI 差異分析（選用）：當欄位 FAIL 時，用 Claude 自動判斷差異原因
+# （來源過期？NKUinfos 需更新？格式差異？）。
+# 需設定環境變數 ANTHROPIC_API_KEY；用 `--ai` 開啟，或將 enabled 設為 true。
+ai:
+  enabled: false
+  model: claude-opus-4-8   # 預設用最強的 Opus；可改 claude-haiku-4-5 省成本
+  analyze: fail            # fail | warning | all：要分析哪些建案
+  max_output_tokens: 4000
+
 fetch:
   headless: true          # Playwright 是否以無頭模式執行
   timeout: 60             # 單頁載入逾時（秒）

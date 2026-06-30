@@ -14,7 +14,9 @@
 from __future__ import annotations
 
 import argparse
+import os
 from datetime import datetime
+from pathlib import Path
 
 from app.config import Config
 from app.io.data_source import build_data_source
@@ -49,8 +51,25 @@ def _build_parser() -> argparse.ArgumentParser:
         "--report", action="append", metavar="FORMAT",
         help="輸出報表格式（html / excel / json），可重複指定；預設讀 config",
     )
+    parser.add_argument(
+        "--ai", action="store_true",
+        help="對 FAIL 建案執行 AI 差異分析（需 ANTHROPIC_API_KEY）",
+    )
     parser.add_argument("--version", action="version", version=f"HouseQA {VERSION}")
     return parser
+
+
+def _load_env(path: str = ".env") -> None:
+    """載入 .env 檔到環境變數（簡易版，不覆寫既有變數）。"""
+    env_path = Path(path)
+    if not env_path.exists():
+        return
+    for line in env_path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, value = line.partition("=")
+        os.environ.setdefault(key.strip(), value.strip())
 
 
 def _banner() -> None:
@@ -94,6 +113,7 @@ def main(argv: list[str] | None = None) -> int:
         程序結束碼：0 成功，1 發生可預期錯誤，2 找不到指定建案。
     """
     args = _build_parser().parse_args(argv)
+    _load_env()
     config = Config.load(args.config)
     setup_logging(config.log.dir, config.log.file, config.log.level)
     _banner()
@@ -122,6 +142,13 @@ def main(argv: list[str] | None = None) -> int:
         force_download=args.force_download,
         cache_only=args.cache_only,
     )
+
+    if args.ai or config.ai.enabled:
+        if not pipeline.analyzer.available():
+            print("⚠️ 已要求 AI 分析，但未設定 ANTHROPIC_API_KEY（或缺 SDK），略過")
+        else:
+            count = pipeline.analyze(report)
+            print(f"🤖 AI 已分析 {count} 案")
 
     formats = args.report if args.report else config.report.formats
     outputs = pipeline.generate_reports(report, formats)

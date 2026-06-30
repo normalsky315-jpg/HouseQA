@@ -10,10 +10,11 @@ from __future__ import annotations
 from datetime import datetime
 from pathlib import Path
 
+from app.ai.anthropic_analyzer import AnthropicAnalyzer
 from app.compare.engine import CompareEngine
 from app.config import Config
 from app.fetchers.cache import HtmlCache
-from app.models.diff_result import ProjectResult, QAReport
+from app.models.diff_result import ProjectResult, QAReport, Status
 from app.models.project import Project
 from app.models.source_record import SourceRecord
 from app.reports.excel_report import ExcelReporter
@@ -36,6 +37,7 @@ class QAPipeline:
         self.cache = HtmlCache(config.cache.dir, config.cache.days)
         self.adapters = build_source_adapters(config, self.cache)
         self.engine = CompareEngine(config.compare)
+        self.analyzer = AnthropicAnalyzer(config.ai)
 
         self.reporters = ReporterRegistry()
         self.reporters.register(HtmlReporter())
@@ -112,6 +114,33 @@ class QAPipeline:
         except Exception as exc:  # noqa: BLE001 - 單一來源容錯
             logger.error("來源 %s 處理失敗：%s（%s）", adapter.name, project.name, exc)
             return None
+
+    def analyze(self, report: QAReport) -> int:
+        """對符合條件的建案執行 AI 差異分析，回傳分析的建案數。
+
+        分析範圍由 ``config.ai.analyze`` 決定（fail / warning / all）。
+        未設定 ANTHROPIC_API_KEY 時直接略過並回傳 0。
+        """
+        if not self.analyzer.available():
+            logger.warning("未設定 ANTHROPIC_API_KEY 或無 SDK，略過 AI 分析")
+            return 0
+
+        targets = [p for p in report.projects if self._should_analyze(p)]
+        for index, project in enumerate(targets, start=1):
+            logger.info("(%d/%d) AI 分析：%s", index, len(targets), project.name)
+            project.ai_analysis = self.analyzer.analyze(project)
+        return len(targets)
+
+    def _should_analyze(self, project: ProjectResult) -> bool:
+        """依設定判斷某建案是否需要 AI 分析。"""
+        if project.skipped or project.error or not project.fields:
+            return False
+        mode = self.config.ai.analyze
+        if mode == "all":
+            return True
+        if mode == "warning":
+            return project.status in (Status.FAIL, Status.WARNING)
+        return project.status is Status.FAIL
 
     def generate_reports(
         self, report: QAReport, formats: list[str]

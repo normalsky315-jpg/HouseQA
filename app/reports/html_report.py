@@ -95,6 +95,11 @@ class HtmlReporter(Reporter):
                 f"<tbody>{rows}</tbody></table>"
             )
 
+        ai = (
+            f"<div class='ai'><b>🤖 AI 分析</b><br>"
+            f"{html.escape(project.ai_analysis).replace(chr(10), '<br>')}</div>"
+            if project.ai_analysis else ""
+        )
         return f"""<section class="project">
   <div class="project-head">
     <h2>{html.escape(project.name)} <small>#{html.escape(project.project_id)}</small></h2>
@@ -102,6 +107,7 @@ class HtmlReporter(Reporter):
   </div>
   <div class="project-meta">{meta}</div>
   {body}
+  {ai}
 </section>"""
 
     def _render_row(self, field, sources: list[str]) -> str:
@@ -172,4 +178,6 @@ tr.fail { background: #fff5f5; } tr.warning { background: #fffbf0; }
 .muted { color: #bdc1c6; }
 .skip, .error { padding: 16px 24px; color: #5f6368; }
 .error { color: #c62828; }
+.ai { margin: 0 24px 16px; padding: 14px 18px; background: #f1f8ff;
+  border-left: 3px solid #1a73e8; font-size: 14px; line-height: 1.7; border-radius: 4px; }
 """

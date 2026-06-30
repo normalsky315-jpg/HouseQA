@@ -73,6 +73,16 @@ class DataConfig:
 
 
 @dataclass(slots=True)
+class AiConfig:
+    """AI 差異分析設定（選用，需 ANTHROPIC_API_KEY）。"""
+
+    enabled: bool = False
+    model: str = "claude-opus-4-8"
+    analyze: str = "fail"  # fail | warning | all：要分析哪些建案
+    max_output_tokens: int = 4000
+
+
+@dataclass(slots=True)
 class CompareConfig:
     """比對規則設定。
 
@@ -95,6 +105,7 @@ class Config:
     log: LogConfig = field(default_factory=LogConfig)
     data: DataConfig = field(default_factory=DataConfig)
     sources: list[str] = field(default_factory=lambda: ["591"])
+    ai: AiConfig = field(default_factory=AiConfig)
     compare: CompareConfig = field(default_factory=CompareConfig)
 
     @classmethod
@@ -142,8 +153,9 @@ class Config:
         )
 
         sources = list(raw.get("sources", ["591"]))
+        ai = AiConfig(**raw.get("ai", {}))
 
         return cls(
             fetch=fetch, cache=cache, report=report, log=log,
-            data=data, sources=sources, compare=compare,
+            data=data, sources=sources, ai=ai, compare=compare,
         )
