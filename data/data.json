@@ -6,7 +6,10 @@
   "dataDate": "115.03",
   "base": 36.42,
   "premiumPct": 10,
-  "discountPct": -5
+  "discountPct": -5,
+  "districtBase": {
+   "仁武": 31.0
+  }
  },
  "projects": [
   {
@@ -333,7 +336,7 @@
    "warnReason": "",
    "lat": 22.729691,
    "lng": 120.282784,
-   "s591": "https://newhouse.591.com.tw/137661",
+   "s591": "https://newhouse.591.com.tw/137661/detail",
    "floorPlans": [
     "https://drive.google.com/thumbnail?id=1hSNQhX2zE80ID9KnOjXhcFIGKOTmQvkh&sz=w1200",
     "https://drive.google.com/thumbnail?id=1Oq7Sv7IzBL7_h-9-VX7CnCk-rLW4JnFR&sz=w1200",
@@ -1202,7 +1205,7 @@
    "warnReason": "",
    "lat": 22.72295,
    "lng": 120.28854,
-   "s591": "https://newhouse.591.com.tw/137529",
+   "s591": "https://newhouse.591.com.tw/137529/detail",
    "floorPlans": [],
    "leju": "https://www.leju.com.tw/community/L3341445411a097"
   },
@@ -1272,16 +1275,16 @@
   {
    "name": "光之匯",
    "dev": "光盛(光洲)建設",
-   "status": "預售屋",
+   "status": "新成屋",
    "addr": "北屋南街",
    "district": "仁武",
    "zone": "仁武圈",
-   "permit": "",
+   "permit": "(107)高市工建築字第02476-02號",
    "floor": "15F/B3",
-   "avgPrice": null,
-   "minPrice": null,
-   "maxPrice": null,
-   "count": null,
+   "avgPrice": 36.22,
+   "minPrice": 28.25,
+   "maxPrice": 38.34,
+   "count": 85,
    "askPrice": "33~37萬",
    "units": 98,
    "layout": "",
@@ -1289,16 +1292,31 @@
    "r2": 0,
    "r3": 0,
    "r4": 0,
-   "loan": "",
-   "handover": "",
+   "loan": "80%",
+   "handover": "隨時交屋",
    "kit": [
     "櫻花整體系統廚具",
     "SAVGO多口爐及14人份洗碗機"
    ],
    "bath": [],
-   "other": [],
-   "amenities": {},
-   "notes": "公設比34.8%；車位：96位(平面)；公開日期 112/03；資料來源 house958，已比對 591",
+   "other": [
+    "RC鋼筋混凝土"
+   ],
+   "amenities": {
+    "公設": [
+     "接待大廳",
+     "花園步道",
+     "空中花園",
+     "交誼廳",
+     "會議室",
+     "閱覽室",
+     "家教室",
+     "健身房",
+     "信箱區",
+     "曬被區"
+    ]
+   },
+   "notes": "公設比34.8%；車位：96位(平面)；公開日期 112/03；資料來源 house958，已比對 591；管理費 85元/坪；總銷 15.8億；基地 581.95坪；都計 住四；車位開價 190~210萬；企劃：丰誠廣告【吳榮峰】承接@31.5萬",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -1308,23 +1326,23 @@
    "warnReason": "",
    "lat": null,
    "lng": null,
-   "s591": "https://newhouse.591.com.tw/132471",
+   "s591": "https://newhouse.591.com.tw/132471/detail",
    "s958": "http://house958.com/H12a2.html",
-   "sleju": "",
+   "sleju": "https://www.leju.com.tw/community/L3321391467cac8",
    "floorPlans": []
   },
   {
    "name": "多城市Ⅱ",
    "dev": "多城建設",
-   "status": "預售屋",
+   "status": "新成屋",
    "addr": "友愛街、北屋北街",
    "district": "仁武",
    "zone": "仁武圈",
-   "permit": "",
+   "permit": "(108)高市工建築字第00525-01號",
    "floor": "15F/B2",
-   "avgPrice": null,
-   "minPrice": null,
-   "maxPrice": null,
+   "avgPrice": 33.26,
+   "minPrice": 29.06,
+   "maxPrice": 36.82,
    "count": null,
    "askPrice": "33~36萬/坪",
    "units": 235,
@@ -1333,17 +1351,29 @@
    "r2": 0,
    "r3": 0,
    "r4": 0,
-   "loan": "",
-   "handover": "",
+   "loan": "75%",
+   "handover": "隨時交屋",
    "kit": [
-    "國際牌進口廚俱"
+    "廚具:國際牌進口廚俱"
    ],
    "bath": [
-    "TOTO"
+    "衛浴:TOTO"
    ],
    "other": [],
-   "amenities": {},
-   "notes": "工程進度：拆架完成(113.08.20)；公設比35.5%；車位：212位/平面170位、機械42位、預留充電樁管；公開日期 112/04；資料來源 house958，已比對 591",
+   "amenities": {
+    "公設": [
+     "接待大廳",
+     "空中花園",
+     "交誼廳",
+     "健身房",
+     "親子遊戲區",
+     "兒童遊戲區",
+     "KTV",
+     "信箱區",
+     "曬被區"
+    ]
+   },
+   "notes": "工程進度：拆架完成(113.08.20)；公設比35.5%；車位：212位/平面170位、機械42位、預留充電樁管；公開日期 112/04；資料來源 house958，已比對 591；管理費 70元/坪；總銷 27億；基地 1461.78坪；都計 住四；車位開價 平面:170~198萬、機械:110~140萬；企劃：立永廣告",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -1353,9 +1383,9 @@
    "warnReason": "",
    "lat": null,
    "lng": null,
-   "s591": "https://newhouse.591.com.tw/132941",
+   "s591": "https://newhouse.591.com.tw/132941/detail",
    "s958": "http://house958.com/H12a8.html",
-   "sleju": "",
+   "sleju": "https://www.leju.com.tw/community/La131195891b991",
    "floorPlans": []
   },
   {
@@ -1367,9 +1397,9 @@
    "zone": "仁武圈",
    "permit": "",
    "floor": "15F/B3",
-   "avgPrice": null,
-   "minPrice": null,
-   "maxPrice": null,
+   "avgPrice": 36.76,
+   "minPrice": 31.14,
+   "maxPrice": 44.36,
    "count": null,
    "askPrice": "38~42萬/坪",
    "units": 406,
@@ -1401,8 +1431,28 @@
     "中保電動車防火毯"
    ],
    "other": [],
-   "amenities": {},
-   "notes": "工程進度：地下室開挖(113.08.01)；公設比35%；車位：323位(全平面)；公開日期 113/05；資料來源 house958，591 未上架/已下架",
+   "amenities": {
+    "公設": [
+     "接待大廳",
+     "中庭花園",
+     "交誼廳",
+     "會議室",
+     "閱覽室",
+     "健身房",
+     "親子遊戲區",
+     "兒童遊戲區",
+     "KTV",
+     "瑜伽教室",
+     "廚藝教室",
+     "信箱區",
+     "曬被區",
+     "籃球場",
+     "羽球場(室內)",
+     "音樂教室",
+     "家教室"
+    ]
+   },
+   "notes": "工程進度：地下室開挖(113.08.01)；公設比35%；車位：323位(全平面)；公開日期 113/05；資料來源 house958，591 未上架/已下架；管理費 80元/坪；總銷 50億；基地 1569.64坪；都計 社商；車位開價 165~180~190~205~210~215萬；企劃：海宇國際",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -1414,17 +1464,17 @@
    "lng": null,
    "s591": "",
    "s958": "http://house958.com/H12a4.html",
-   "sleju": "",
+   "sleju": "https://www.leju.com.tw/community/Le41136898dc3f7",
    "floorPlans": []
   },
   {
    "name": "明日學",
    "dev": "茂騰建設",
-   "status": "預售屋",
+   "status": "新成屋",
    "addr": "仁孝路407巷",
    "district": "仁武",
    "zone": "仁武圈",
-   "permit": "",
+   "permit": "(104)高市工建築字第02326-03號",
    "floor": "",
    "avgPrice": null,
    "minPrice": null,
@@ -1437,13 +1487,33 @@
    "r2": 0,
    "r3": 0,
    "r4": 0,
-   "loan": "",
-   "handover": "",
-   "kit": [],
+   "loan": "80%",
+   "handover": "隨時交屋",
+   "kit": [
+    "德匠名廚",
+    "林內廚具"
+   ],
    "bath": [],
-   "other": [],
-   "amenities": {},
-   "notes": "公設比34.88%；車位：92位(全平面)；公開日期 109/11；資料來源 house958，已比對 591",
+   "other": [
+    "RC鋼筋混凝土"
+   ],
+   "amenities": {
+    "公設": [
+     "接待大廳",
+     "會客室",
+     "中庭花園",
+     "交誼廳",
+     "健身房",
+     "景觀池",
+     "空中花園烤肉吧",
+     "曬被區",
+     "瑜伽教室",
+     "信箱區",
+     "Lounge",
+     "Bar。"
+    ]
+   },
+   "notes": "公設比34.88%；車位：92位(全平面)；公開日期 109/11；資料來源 house958，已比對 591；管理費 80元/坪；總銷 8億；基地 693.52坪；都計 住三；車位開價 130~160萬；企劃：自售",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -1453,7 +1523,7 @@
    "warnReason": "",
    "lat": null,
    "lng": null,
-   "s591": "https://newhouse.591.com.tw/125516",
+   "s591": "https://newhouse.591.com.tw/125516/detail",
    "s958": "http://house958.com/H12a9.html",
    "sleju": "",
    "floorPlans": []
@@ -1465,12 +1535,12 @@
    "addr": "京吉六路",
    "district": "仁武",
    "zone": "仁武圈",
-   "permit": "",
+   "permit": "(103)高市工建築字第02628-03號",
    "floor": "15F/B3",
-   "avgPrice": null,
-   "minPrice": null,
-   "maxPrice": null,
-   "count": null,
+   "avgPrice": 33.52,
+   "minPrice": 29.94,
+   "maxPrice": 37.17,
+   "count": 125,
    "askPrice": "33~36萬/坪",
    "units": 126,
    "layout": "2~3房",
@@ -1478,13 +1548,34 @@
    "r2": 0,
    "r3": 0,
    "r4": 0,
-   "loan": "",
-   "handover": "",
-   "kit": [],
-   "bath": [],
+   "loan": "80%",
+   "handover": "隨時交屋",
+   "kit": [
+    "廚具:櫻花廚具",
+    "其他:櫻花牌落地型烘碗機"
+   ],
+   "bath": [
+    "衛浴:TOTO馬桶"
+   ],
    "other": [],
-   "amenities": {},
-   "notes": "工程進度：接近成屋(113.07.01)；公設比35.8%；車位：106位(全平面)；公開日期 113/05；資料來源 house958，已比對 591",
+   "amenities": {
+    "公設": [
+     "接待大廳",
+     "貴賓室",
+     "冷藏室",
+     "垃圾環保區",
+     "空中花園",
+     "交誼廳",
+     "信箱區",
+     "健身房",
+     "會議室",
+     "生活講堂",
+     "機車停放區",
+     "電動車充電樁",
+     "洗車區"
+    ]
+   },
+   "notes": "工程進度：接近成屋(113.07.01)；公設比35.8%；車位：106位(全平面)；公開日期 113/05；資料來源 house958，已比對 591；管理費 80元/坪；總銷 15億；基地 631坪；都計 社商；車位開價 160~200萬；企劃：鼎元行銷(@32萬)",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -1494,9 +1585,9 @@
    "warnReason": "",
    "lat": null,
    "lng": null,
-   "s591": "https://newhouse.591.com.tw/136276",
+   "s591": "https://newhouse.591.com.tw/136276/detail",
    "s958": "http://house958.com/H12a18.html",
-   "sleju": "",
+   "sleju": "https://www.leju.com.tw/community/L949125634047bb",
    "floorPlans": []
   },
   {
@@ -1524,8 +1615,15 @@
    "kit": [],
    "bath": [],
    "other": [],
-   "amenities": {},
-   "notes": "工程進度：結構地下室(113.08.20)；公設比35%；車位：120位(全平面)；公開日期 113/04；資料來源 house958，591 未上架/已下架",
+   "amenities": {
+    "公設": [
+     "迎賓大廳",
+     "交誼廳",
+     "宴會廳",
+     "樂活閱讀區"
+    ]
+   },
+   "notes": "工程進度：結構地下室(113.08.20)；公設比35%；車位：120位(全平面)；公開日期 113/04；資料來源 house958，591 未上架/已下架；管理費 元；總銷 18億；基地 959.22坪；都計 住；車位開價 150~190萬；企劃：興誠國際",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -1543,16 +1641,16 @@
   {
    "name": "華雄天地",
    "dev": "華雄建設",
-   "status": "預售屋",
+   "status": "新成屋",
    "addr": "勇全路/赤誠街口",
    "district": "仁武",
    "zone": "仁武圈",
-   "permit": "",
+   "permit": "(104)高市工建築字第02760-05號",
    "floor": "29F/B4",
-   "avgPrice": null,
-   "minPrice": null,
-   "maxPrice": null,
-   "count": null,
+   "avgPrice": 33.43,
+   "minPrice": 16.72,
+   "maxPrice": 37.8,
+   "count": 29,
    "askPrice": "",
    "units": 279,
    "layout": "2~4房",
@@ -1560,13 +1658,28 @@
    "r2": 0,
    "r3": 0,
    "r4": 0,
-   "loan": "",
-   "handover": "",
-   "kit": [],
-   "bath": [],
+   "loan": "80%",
+   "handover": "隨時交屋",
+   "kit": [
+    "櫻花三機"
+   ],
+   "bath": [
+    "美標衛浴"
+   ],
    "other": [],
-   "amenities": {},
-   "notes": "公設比36.8%；車位：335位(全平面)；公開日期 108/09(成屋113/09)；資料來源 house958，已比對 591",
+   "amenities": {
+    "公設": [
+     "1F-LOBBY(9.5M)",
+     "健身房",
+     "瑜珈室",
+     "兒童遊戲室",
+     "鋼琴區",
+     "閱覽室",
+     "KTV兼視聽室",
+     "會議室"
+    ]
+   },
+   "notes": "公設比36.8%；車位：335位(全平面)；公開日期 108/09(成屋113/09)；資料來源 house958，已比對 591；管理費 65元/坪；總銷 30億；基地 1867.68坪；都計 住三；車位開價 160~180萬、清潔費:350元/位；企劃：龍登廣告(成屋階段)",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -1576,9 +1689,9 @@
    "warnReason": "",
    "lat": null,
    "lng": null,
-   "s591": "https://newhouse.591.com.tw/120695",
+   "s591": "https://newhouse.591.com.tw/120695/detail",
    "s958": "http://house958.com/H12a3.html",
-   "sleju": "",
+   "sleju": "https://www.leju.com.tw/community/Ld7c111641ae367",
    "floorPlans": []
   },
   {
@@ -1588,12 +1701,12 @@
    "addr": "京吉二路",
    "district": "仁武",
    "zone": "仁武圈",
-   "permit": "",
+   "permit": "(109)高市工建築字第01579-01號",
    "floor": "18F/B3",
-   "avgPrice": null,
-   "minPrice": null,
-   "maxPrice": null,
-   "count": null,
+   "avgPrice": 31.78,
+   "minPrice": 28.44,
+   "maxPrice": 38.13,
+   "count": 50,
    "askPrice": "43.9 ~ 47.6萬/坪",
    "units": 102,
    "layout": "",
@@ -1601,13 +1714,27 @@
    "r2": 0,
    "r3": 0,
    "r4": 0,
-   "loan": "",
-   "handover": "",
-   "kit": [],
-   "bath": [],
-   "other": [],
-   "amenities": {},
-   "notes": "工程進度：接近成屋(113.09.01)；公設比36.6%；車位：103位(平面)；公開日期 113/08；資料來源 house958，已比對 591",
+   "loan": "80%",
+   "handover": "隨時交屋",
+   "kit": [
+    "廚具:林內三機"
+   ],
+   "bath": [
+    "衛浴:美標"
+   ],
+   "other": [
+    "國際牌櫥櫃",
+    "INAX"
+   ],
+   "amenities": {
+    "公設": [
+     "廚具:林內三機",
+     "國際牌櫥櫃",
+     "衛浴:美標",
+     "INAX"
+    ]
+   },
+   "notes": "工程進度：接近成屋(113.09.01)；公設比36.6%；車位：103位(平面)；公開日期 113/08；資料來源 house958，已比對 591；管理費 90元/坪；總銷 18億；基地 728.14坪；都計 社商；車位開價 210~230萬；企劃：廣誠廣告",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -1617,9 +1744,9 @@
    "warnReason": "",
    "lat": null,
    "lng": null,
-   "s591": "https://newhouse.591.com.tw/137009",
+   "s591": "https://newhouse.591.com.tw/137009/detail",
    "s958": "http://house958.com/H12a17.html",
-   "sleju": "",
+   "sleju": "https://www.leju.com.tw/community/L23c147263be1e5",
    "floorPlans": []
   },
   {
@@ -1652,8 +1779,16 @@
     "其他:三合一電子門鎖(WAFERLOCK)"
    ],
    "other": [],
-   "amenities": {},
-   "notes": "工程進度：結構地下室(113.08.20)；公設比36%；車位：130位(全平面)；公開日期 113/07；資料來源 house958，591 未上架/已下架",
+   "amenities": {
+    "公設": [
+     "迎賓大廳",
+     "會議室",
+     "健身房",
+     "瑜伽教室",
+     "兒童遊戲區"
+    ]
+   },
+   "notes": "工程進度：結構地下室(113.08.20)；公設比36%；車位：130位(全平面)；公開日期 113/07；資料來源 house958，591 未上架/已下架；管理費 70元；總銷 20億；基地 959.22坪；都計 住；企劃：瀚洸泰廣告(@35萬)",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -1671,16 +1806,16 @@
   {
    "name": "首席大院",
    "dev": "三發地產",
-   "status": "預售屋",
+   "status": "新成屋",
    "addr": "京吉二路&京吉五路&京吉三路",
    "district": "仁武",
    "zone": "仁武圈",
-   "permit": "",
+   "permit": "(109)高市工建築字第01742-06號",
    "floor": "15F/B3",
-   "avgPrice": null,
-   "minPrice": null,
-   "maxPrice": null,
-   "count": null,
+   "avgPrice": 29.06,
+   "minPrice": 26.93,
+   "maxPrice": 37.93,
+   "count": 371,
    "askPrice": "32~35萬(早鳥價)",
    "units": 756,
    "layout": "2~3房",
@@ -1688,19 +1823,51 @@
    "r2": 0,
    "r3": 0,
    "r4": 0,
-   "loan": "",
-   "handover": "",
+   "loan": "80%",
+   "handover": "隨時交屋",
    "kit": [
-    "大雅廚具",
-    "櫻花三機",
-    "LG人造石檯面",
-    "亞頓淨水器",
-    "Blum緩衝式鉸鏈"
+    "櫻花廚具"
    ],
-   "bath": [],
-   "other": [],
-   "amenities": {},
-   "notes": "工程進度：拆架中(113.08.20)；公設比34.8%；車位：808位(全平面)；公開日期 111/07/27；資料來源 house958，已比對 591",
+   "bath": [
+    "TOTO衛浴",
+    "國際牌暖風機"
+   ],
+   "other": [
+    "全棟淨軟水"
+   ],
+   "amenities": {
+    "公設": [
+     "雙迎賓大門",
+     "挑高藝術大廳",
+     "第二接待大廳",
+     "社區樹景廣場",
+     "街角廣場",
+     "林蔭大道",
+     "Lounge",
+     "bar",
+     "漂浮健身房",
+     "游泳池",
+     "盥洗室",
+     "戶外運動空間",
+     "撞球娛樂室",
+     "休閒草皮空間",
+     "三間KTV",
+     "挑高電梯廳",
+     "小提琴室",
+     "鋼琴室",
+     "影音視聽室",
+     "階梯式沙發閱覽室",
+     "家教室",
+     "桌遊室",
+     "中式宴會廳",
+     "多功能廚藝教室",
+     "戶外休憩空間",
+     "垃圾儲藏室",
+     "迎賓車道入口",
+     "包裹冷藏室。"
+    ]
+   },
+   "notes": "工程進度：拆架中(113.08.20)；公設比34.8%；車位：808位(全平面)；公開日期 111/07/27；資料來源 house958，已比對 591；管理費 60元/坪；總銷 65億；基地 3711.72坪；都計 社商；車位開價 160~210萬；企劃：海悅廣告",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -1710,9 +1877,9 @@
    "warnReason": "",
    "lat": null,
    "lng": null,
-   "s591": "https://newhouse.591.com.tw/125515",
+   "s591": "https://newhouse.591.com.tw/125515/detail",
    "s958": "http://house958.com/H12a1.html",
-   "sleju": "",
+   "sleju": "https://www.leju.com.tw/community/L2c71157846bced",
    "floorPlans": []
   },
   {
@@ -1724,9 +1891,9 @@
    "zone": "八卦寮",
    "permit": "",
    "floor": "15F/B4",
-   "avgPrice": null,
-   "minPrice": null,
-   "maxPrice": null,
+   "avgPrice": 30.79,
+   "minPrice": 29.37,
+   "maxPrice": 32.99,
    "count": null,
    "askPrice": "33~35萬",
    "units": 103,
@@ -1743,8 +1910,15 @@
    ],
    "bath": [],
    "other": [],
-   "amenities": {},
-   "notes": "工程進度：外觀施作中 (113.08.20)；公設比35%；車位：87位(全平面)；公開日期 112/04 (112/05正式公開)；資料來源 house958，591 未上架/已下架",
+   "amenities": {
+    "公設": [
+     "大廳",
+     "健身房",
+     "交誼廳",
+     "媽媽教室"
+    ]
+   },
+   "notes": "工程進度：外觀施作中 (113.08.20)；公設比35%；車位：87位(全平面)；公開日期 112/04 (112/05正式公開)；資料來源 house958，591 未上架/已下架；管理費 75元/坪；總銷 11億；基地 522.68坪；都計 住四；車位開價 B1F:機車位；企劃：鑫鎧廣告(@33萬)",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -1756,7 +1930,7 @@
    "lng": null,
    "s591": "",
    "s958": "http://house958.com/H12a16.html",
-   "sleju": "",
+   "sleju": "https://www.leju.com.tw/community/Lae813835694979",
    "floorPlans": []
   },
   {
@@ -1768,9 +1942,9 @@
    "zone": "八卦寮",
    "permit": "",
    "floor": "14F/B2",
-   "avgPrice": null,
-   "minPrice": null,
-   "maxPrice": null,
+   "avgPrice": 32.75,
+   "minPrice": 25.5,
+   "maxPrice": 37.95,
    "count": null,
    "askPrice": "32~36萬/坪",
    "units": 128,
@@ -1784,8 +1958,20 @@
    "kit": [],
    "bath": [],
    "other": [],
-   "amenities": {},
-   "notes": "公設比35%、店28%；車位：128位(全平面) ,機車位140個；公開日期 111/10/22；資料來源 house958，591 未上架/已下架",
+   "amenities": {
+    "公設": [
+     "公設:1F-公設大廳",
+     "交誼區",
+     "信箱區",
+     "多功能區",
+     "家教室",
+     "2F-閱讀室+會議室",
+     "兒童閱覽室",
+     "媽媽教室+宴會廳",
+     "RF-曬被區。"
+    ]
+   },
+   "notes": "公設比35%、店28%；車位：128位(全平面) ,機車位140個；公開日期 111/10/22；資料來源 house958，591 未上架/已下架；管理費 80元/坪；總銷 12億；基地 918.74坪；都計 住三；車位開價 150~190萬；企劃：新宏開廣告(@26.8~28萬)",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -1797,7 +1983,7 @@
    "lng": null,
    "s591": "",
    "s958": "http://house958.com/H12a14.html",
-   "sleju": "",
+   "sleju": "https://www.leju.com.tw/community/L41412599078d2f",
    "floorPlans": []
   },
   {
@@ -1807,7 +1993,7 @@
    "addr": "永新一街/後港巷",
    "district": "仁武",
    "zone": "八卦寮",
-   "permit": "",
+   "permit": "(108)高市工建築字第02722-01號",
    "floor": "13F/B2",
    "avgPrice": null,
    "minPrice": null,
@@ -1820,17 +2006,27 @@
    "r2": 0,
    "r3": 0,
    "r4": 0,
-   "loan": "",
-   "handover": "",
+   "loan": "80%",
+   "handover": "2026年下半年",
    "kit": [
-    "櫻花抽油煙機+烘碗機+微波烤箱",
-    "svago雙感應爐",
-    "淨水器"
+    "廚具:櫻花三機"
    ],
-   "bath": [],
-   "other": [],
-   "amenities": {},
-   "notes": "工程進度：結構5F (113.08.20)；公設比36.5%；車位：62位(平面40個、機械22個)；公開日期 111/06；資料來源 house958，已比對 591",
+   "bath": [
+    "衛浴:TOTO"
+   ],
+   "other": [
+    "RC鋼筋混凝土"
+   ],
+   "amenities": {
+    "公設": [
+     "接待大廳",
+     "交誼廳",
+     "信箱區",
+     "曬被區",
+     "環保室"
+    ]
+   },
+   "notes": "工程進度：結構5F (113.08.20)；公設比36.5%；車位：62位(平面40個、機械22個)；公開日期 111/06；資料來源 house958，已比對 591；管理費 70元/坪；總銷 8億；基地 496.63坪；都計 住三；車位開價 平面165~195萬、機械120~135萬；企劃：瀚洸泰廣告",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -1840,7 +2036,7 @@
    "warnReason": "",
    "lat": null,
    "lng": null,
-   "s591": "https://newhouse.591.com.tw/131132",
+   "s591": "https://newhouse.591.com.tw/131132/detail",
    "s958": "http://house958.com/H12a7.html",
    "sleju": "",
    "floorPlans": []
@@ -1848,15 +2044,15 @@
   {
    "name": "興連城@99",
    "dev": "興連誠建設",
-   "status": "預售屋",
+   "status": "新成屋",
    "addr": "霞海路近霞海三街口",
    "district": "仁武",
    "zone": "八卦寮",
-   "permit": "",
+   "permit": "(107)高市工建築字第02056-02號",
    "floor": "14F/B2",
-   "avgPrice": null,
-   "minPrice": null,
-   "maxPrice": null,
+   "avgPrice": 21.54,
+   "minPrice": 17.18,
+   "maxPrice": 40.95,
    "count": null,
    "askPrice": "39~43萬/坪",
    "units": 100,
@@ -1865,13 +2061,24 @@
    "r2": 0,
    "r3": 0,
    "r4": 0,
-   "loan": "",
-   "handover": "",
-   "kit": [],
-   "bath": [],
-   "other": [],
+   "loan": "80%",
+   "handover": "隨時交屋",
+   "kit": [
+    "廚具:德匠廚具",
+    "JTL烘碗機"
+   ],
+   "bath": [
+    "衛浴:Innoci智能馬桶",
+    "Panasonic暖風機"
+   ],
+   "other": [
+    "其他:Yale智能門鎖",
+    "錦鋐氣密窗",
+    "Svago雙口感應爐",
+    "Rinnai倒T抽油煙機"
+   ],
    "amenities": {},
-   "notes": "公設比36.9%、店面:25.5%；車位：84位/全平面(配比80%)；公開日期 109/09(預售)；資料來源 house958，已比對 591",
+   "notes": "公設比36.9%、店面:25.5%；車位：84位/全平面(配比80%)；公開日期 109/09(預售)；資料來源 house958，已比對 591；管理費 65元/坪；總銷 15億；基地 734.53坪；都計 住四；車位開價 200~230萬/位；企劃：興聯誠廣告",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -1881,9 +2088,9 @@
    "warnReason": "",
    "lat": null,
    "lng": null,
-   "s591": "https://newhouse.591.com.tw/124566",
+   "s591": "https://newhouse.591.com.tw/124566/detail",
    "s958": "http://house958.com/H12a13.html",
-   "sleju": "",
+   "sleju": "https://www.leju.com.tw/community/L284114959e1b2a",
    "floorPlans": []
   },
   {
@@ -1895,9 +2102,9 @@
    "zone": "八卦寮",
    "permit": "",
    "floor": "14F/B3",
-   "avgPrice": null,
-   "minPrice": null,
-   "maxPrice": null,
+   "avgPrice": 38.2,
+   "minPrice": 34.51,
+   "maxPrice": 43.45,
    "count": null,
    "askPrice": "39~46萬",
    "units": 130,
@@ -1911,8 +2118,23 @@
    "kit": [],
    "bath": [],
    "other": [],
-   "amenities": {},
-   "notes": "工程進度：待確認 (113.11.05)；公設比35%；車位：145位(平面)；公開日期 113/11；資料來源 house958，591 未上架/已下架",
+   "amenities": {
+    "公設": [
+     "迎賓大廳",
+     "宅配室",
+     "信箱區",
+     "兒童遊戲室",
+     "交誼廳",
+     "廚藝教室",
+     "宴會廳",
+     "健身房",
+     "KTV室",
+     "戶外兒童遊憩區",
+     "中庭花園",
+     "空中花園"
+    ]
+   },
+   "notes": "工程進度：待確認 (113.11.05)；公設比35%；車位：145位(平面)；公開日期 113/11；資料來源 house958，591 未上架/已下架；管理費 100元/坪；總銷 20億；基地 922.97坪(112.10.01谷樹轉賣)；都計 住二；車位開價 195~235萬；企劃：靖淳國際",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -1924,21 +2146,21 @@
    "lng": null,
    "s591": "",
    "s958": "http://house958.com/H12a20.html",
-   "sleju": "",
+   "sleju": "https://www.leju.com.tw/community/Le2014452319dce",
    "floorPlans": []
   },
   {
    "name": "行樂日和",
    "dev": "興連城建設",
-   "status": "預售屋",
+   "status": "新成屋",
    "addr": "霞海路",
    "district": "仁武",
    "zone": "八卦寮",
-   "permit": "",
+   "permit": "(110)高市工建築字第02237-01號",
    "floor": "15F/B2",
-   "avgPrice": null,
-   "minPrice": null,
-   "maxPrice": null,
+   "avgPrice": 36.1,
+   "minPrice": 26.51,
+   "maxPrice": 41.5,
    "count": null,
    "askPrice": "31~33萬/坪",
    "units": 67,
@@ -1947,13 +2169,27 @@
    "r2": 0,
    "r3": 0,
    "r4": 0,
-   "loan": "",
-   "handover": "",
-   "kit": [],
+   "loan": "75%",
+   "handover": "隨時交屋",
+   "kit": [
+    "廚具:德匠"
+   ],
    "bath": [],
-   "other": [],
-   "amenities": {},
-   "notes": "工程進度：外觀施作中(113.08.20)；公設比36.9%；車位：59位 (平面)；公開日期 110/11；資料來源 house958，已比對 591",
+   "other": [
+    "RC鋼筋混凝土",
+    "林內抽油煙機",
+    "SVAGO 雙口感應爐"
+   ],
+   "amenities": {
+    "公設": [
+     "大廳",
+     "健身房",
+     "交誼廳",
+     "曬衣區(太陽光電板)",
+     "垃圾處理室"
+    ]
+   },
+   "notes": "工程進度：外觀施作中(113.08.20)；公設比36.9%；車位：59位 (平面)；公開日期 110/11；資料來源 house958，已比對 591；管理費 80元/坪；總銷 9億；基地 513.84坪；都計 住；車位開價 170~195萬/位；企劃：興聯誠廣告",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -1963,9 +2199,9 @@
    "warnReason": "",
    "lat": null,
    "lng": null,
-   "s591": "https://newhouse.591.com.tw/129600",
+   "s591": "https://newhouse.591.com.tw/129600/detail",
    "s958": "http://house958.com/H12a5.html",
-   "sleju": "",
+   "sleju": "https://www.leju.com.tw/community/Led0127377494de",
    "floorPlans": []
   },
   {
@@ -1977,9 +2213,9 @@
    "zone": "八卦寮",
    "permit": "",
    "floor": "15F/B3",
-   "avgPrice": null,
-   "minPrice": null,
-   "maxPrice": null,
+   "avgPrice": 28.81,
+   "minPrice": 27.16,
+   "maxPrice": 39.2,
    "count": null,
    "askPrice": "27.6~35.6萬/坪",
    "units": 476,
@@ -1997,8 +2233,25 @@
     "INAX"
    ],
    "other": [],
-   "amenities": {},
-   "notes": "工程進度：結構6F(113.08.20)；公設比35%、店25%(1F)；車位：502位(全平面) 、預留充電樁管線/線槽；公開日期 112/04/01；資料來源 house958，591 未上架/已下架",
+   "amenities": {
+    "公設": [
+     "接待大廳",
+     "中庭花園",
+     "交誼廳",
+     "會議室",
+     "閱覽室",
+     "游泳池",
+     "健身房",
+     "桌球室",
+     "親子遊戲區",
+     "兒童遊戲區",
+     "KTV",
+     "廚藝教室",
+     "信箱區",
+     "曬被區"
+    ]
+   },
+   "notes": "工程進度：結構6F(113.08.20)；公設比35%、店25%(1F)；車位：502位(全平面) 、預留充電樁管線/線槽；公開日期 112/04/01；資料來源 house958，591 未上架/已下架；管理費 50元/坪；總銷 60億；基地 2379.25坪；都計 住三；車位開價 160~180萬；企劃：和邁廣告",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -2010,21 +2263,21 @@
    "lng": null,
    "s591": "",
    "s958": "http://house958.com/H12a15.html",
-   "sleju": "",
+   "sleju": "https://www.leju.com.tw/community/Lc371390357ef1a",
    "floorPlans": []
   },
   {
    "name": "高鐵新特區",
    "dev": "冠傑建設",
-   "status": "預售屋",
+   "status": "新成屋",
    "addr": "霞海東二街近霞海中街",
    "district": "仁武",
    "zone": "八卦寮",
-   "permit": "",
+   "permit": "(110)高市工建築字第01532-01號",
    "floor": "15F/B3",
-   "avgPrice": null,
-   "minPrice": null,
-   "maxPrice": null,
+   "avgPrice": 34.26,
+   "minPrice": 25.74,
+   "maxPrice": 37.46,
    "count": null,
    "askPrice": "33~37萬",
    "units": 114,
@@ -2033,16 +2286,36 @@
    "r2": 0,
    "r3": 0,
    "r4": 0,
-   "loan": "",
-   "handover": "",
+   "loan": "80%",
+   "handover": "隨時交屋",
    "kit": [
-    "櫻花二機(天然瓦斯)",
-    "BEST 洗烘碗機"
+    "廚具:櫻花二機",
+    "BEST洗烘碗機"
    ],
-   "bath": [],
-   "other": [],
-   "amenities": {},
-   "notes": "工程進度：拆架中 (113.09.01)；公設比36.8%；車位：130位(全平面)、機車122位；公開日期 112/05；資料來源 house958，已比對 591",
+   "bath": [
+    "衛浴:Villeroy&Boch"
+   ],
+   "other": [
+    "American Standard",
+    "TOTO",
+    "INAX",
+    "五金:人臉辨識",
+    "全棟淨軟水",
+    "四合一電子鎖(WAFERLOCK)",
+    "鋁門窗(力霸)",
+    "淨軟水設備(BWT)"
+   ],
+   "amenities": {
+    "公設": [
+     "1F接待大廳",
+     "信箱區",
+     "中庭造景",
+     "交誼廳",
+     "健身房",
+     "曬被區"
+    ]
+   },
+   "notes": "工程進度：拆架中 (113.09.01)；公設比36.8%；車位：130位(全平面)、機車122位；公開日期 112/05；資料來源 house958，已比對 591；管理費 75元/坪；總銷 15億；基地 810.21坪；都計 住宅區；車位開價 殘-220萬、B1-210萬、B2-200萬、B3-190萬；企劃：立永廣告(@33萬)",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -2052,9 +2325,9 @@
    "warnReason": "",
    "lat": null,
    "lng": null,
-   "s591": "https://newhouse.591.com.tw/133225",
+   "s591": "https://newhouse.591.com.tw/133225/detail",
    "s958": "http://house958.com/H12a12.html",
-   "sleju": "",
+   "sleju": "https://www.leju.com.tw/community/Lb74126835a6945",
    "floorPlans": []
   },
   {
@@ -2066,9 +2339,9 @@
    "zone": "慈惠圈",
    "permit": "",
    "floor": "15F/B2",
-   "avgPrice": null,
-   "minPrice": null,
-   "maxPrice": null,
+   "avgPrice": 29.52,
+   "minPrice": 26.6,
+   "maxPrice": 38.78,
    "count": null,
    "askPrice": "30~35萬/坪",
    "units": 84,
@@ -2082,8 +2355,20 @@
    "kit": [],
    "bath": [],
    "other": [],
-   "amenities": {},
-   "notes": "工程進度：接近成屋(113.08.20)；公設比35.1%；車位：107位(全平面)；公開日期 112/09；資料來源 house958，591 未上架/已下架",
+   "amenities": {
+    "公設": [
+     "接待大廳",
+     "中庭花園",
+     "交誼廳",
+     "會議室",
+     "閱覽室",
+     "視聽室",
+     "健身房",
+     "信箱區",
+     "曬被區"
+    ]
+   },
+   "notes": "工程進度：接近成屋(113.08.20)；公設比35.1%；車位：107位(全平面)；公開日期 112/09；資料來源 house958，591 未上架/已下架；管理費 80元/坪；總銷 13億；基地 770.60坪；都計 住三；車位開價 160~195萬；企劃：緯立廣告",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -2095,7 +2380,7 @@
    "lng": null,
    "s591": "",
    "s958": "http://house958.com/H12a10.html",
-   "sleju": "",
+   "sleju": "https://www.leju.com.tw/community/L74e12521445da2",
    "floorPlans": []
   },
   {
@@ -2105,12 +2390,12 @@
    "addr": "勇全路跟永和街95巷交叉",
    "district": "仁武",
    "zone": "慈惠圈",
-   "permit": "",
+   "permit": "(103)高市工建築字第01789號",
    "floor": "26F/B3",
-   "avgPrice": null,
-   "minPrice": null,
-   "maxPrice": null,
-   "count": null,
+   "avgPrice": 31.26,
+   "minPrice": 27.62,
+   "maxPrice": 40.71,
+   "count": 40,
    "askPrice": "39~49萬",
    "units": 79,
    "layout": "",
@@ -2118,21 +2403,32 @@
    "r2": 0,
    "r3": 0,
    "r4": 0,
-   "loan": "",
-   "handover": "",
+   "loan": "80%",
+   "handover": "隨時交屋",
    "kit": [
-    "德匠廚具",
+    "廚具:德匠廚具"
+   ],
+   "bath": [
+    "衛浴:TOTO"
+   ],
+   "other": [
     "林內二機",
     "國際牌IH爐",
     "2房伊萊克斯IH雙口爐",
     "3+1房多BOSCH洗碗機"
    ],
-   "bath": [
-    "TOTO"
-   ],
-   "other": [],
-   "amenities": {},
-   "notes": "工程進度：接近成屋(113.09.20)；公設比37%；車位：109位(平面)；公開日期 113/09；資料來源 house958，已比對 591",
+   "amenities": {
+    "公設": [
+     "接待大廳",
+     "中庭花園",
+     "空中花園",
+     "交誼廳",
+     "閱覽室",
+     "視聽室",
+     "健身房"
+    ]
+   },
+   "notes": "工程進度：接近成屋(113.09.20)；公設比37%；車位：109位(平面)；公開日期 113/09；資料來源 house958，已比對 591；管理費 80元/坪；總銷 19億(@35萬)；基地 899坪；都計 澄住三；車位開價 平面195~265萬(殘)；企劃：立誠廣告",
    "analysis": "",
    "vs": "",
    "vsPublic": false,
@@ -2142,9 +2438,9 @@
    "warnReason": "",
    "lat": null,
    "lng": null,
-   "s591": "https://newhouse.591.com.tw/137414",
+   "s591": "https://newhouse.591.com.tw/137414/detail",
    "s958": "http://house958.com/H12a19.html",
-   "sleju": "",
+   "sleju": "https://www.leju.com.tw/community/L9eb1469436dc5c",
    "floorPlans": []
   }
  ]
